@@ -1,0 +1,57 @@
+{
+  "configurations" : [
+    {
+      "id" : "C817CC93-8714-46D7-806A-EC933DEADAFE",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "language" : "ru",
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "LocalizationTests\/testPerformanceExample()",
+        "LocalizationTests\/testWineCoolClimateCharacteristicsLocalizationDE()",
+        "LocalizationTests\/testWineCoolClimateCharacteristicsLocalizationEN()",
+        "LocalizationTests\/testWineCoolClimateCharacteristicsLocalizationES()",
+        "LocalizationTests\/testWineCoolClimateCharacteristicsLocalizationFR()",
+        "LocalizationTests\/testWineDescriptionLocalizationDE()",
+        "LocalizationTests\/testWineDescriptionLocalizationEN()",
+        "LocalizationTests\/testWineDescriptionLocalizationES()",
+        "LocalizationTests\/testWineDescriptionLocalizationFR()",
+        "LocalizationTests\/testWineGrapeLocalizationDE()",
+        "LocalizationTests\/testWineGrapeLocalizationEN()",
+        "LocalizationTests\/testWineGrapeLocalizationES()",
+        "LocalizationTests\/testWineGrapeLocalizationFR()",
+        "LocalizationTests\/testWineHotClimateCharacteristicsLocalizationDE()",
+        "LocalizationTests\/testWineHotClimateCharacteristicsLocalizationEN()",
+        "LocalizationTests\/testWineHotClimateCharacteristicsLocalizationES()",
+        "LocalizationTests\/testWineHotClimateCharacteristicsLocalizationFR()",
+        "LocalizationTests\/testWineModerateClimateCharacteristicsLocalizationDE()",
+        "LocalizationTests\/testWineModerateClimateCharacteristicsLocalizationEN()",
+        "LocalizationTests\/testWineModerateClimateCharacteristicsLocalizationES()",
+        "LocalizationTests\/testWineModerateClimateCharacteristicsLocalizationFR()",
+        "LocalizationTests\/testWineRegionLocalizationDE()",
+        "LocalizationTests\/testWineRegionLocalizationEN()",
+        "LocalizationTests\/testWineRegionLocalizationES()",
+        "LocalizationTests\/testWineRegionLocalizationFR()",
+        "LocalizationTests\/testWineTanninsLocalizationDE()",
+        "LocalizationTests\/testWineTanninsLocalizationEN()",
+        "LocalizationTests\/testWineTanninsLocalizationES()",
+        "LocalizationTests\/testWineTanninsLocalizationFR()",
+        "WineRecommenderTests"
+      ],
+      "target" : {
+        "containerPath" : "container:WineRecommender.xcodeproj",
+        "identifier" : "DCF54CDD27FCAB65008430E7",
+        "name" : "WineRecommenderTests"
+      }
+    }
+  ],
+  "version" : 1
+}

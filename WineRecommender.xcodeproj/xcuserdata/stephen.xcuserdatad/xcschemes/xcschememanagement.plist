@@ -7,7 +7,25 @@
 		<key>WineRecommender.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>17</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>DCF54CCD27FCAB61008430E7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DCF54CDD27FCAB65008430E7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DCF54CE727FCAB66008430E7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

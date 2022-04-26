@@ -1,0 +1,273 @@
+/*
+  Localizable.strings
+  WineRecommender
+
+  Created by Stephen Koch on 2/2/22.
+  
+  English (US)
+*/
+
+// Titles
+"wr.title.app" = "Wine Recommender";
+"wr.title.language" = "Langue";
+"wr.title.selectyourgrape" = "Choisissez votre raisin";
+"wr.title.savedrecommendations" = "Recommandations enregistrées";
+
+// Buttons
+"wr.button.getstarted" = "Commencer";
+"wr.button.yes" = "Oui";
+"wr.button.no" = "Non";
+"wr.button.select" = "Sélectionner";
+
+//View Content
+"wr.view.home.explainationlanguage" = "Pour que les modifications prennent effet, veuillez fermer et redémarrer manuellement l'application.";
+
+"wr.view.question.whitered" = "Souhaitez-vous de l'aide pour choisir entre un vin blanc et un vin rouge?";
+"wr.view.question.youselected" = "Vous avez sélectionné:";
+"wr.view.question.nothing" = "Rien";
+
+"wr.view.question.limitrecommendation" = "Commencez par limiter votre recommandation aux vins rouges ou blancs.";
+"wr.view.question.redmeat" = "Pour les viandes rouges, nous vous recommandons de regarder les vins rouges.";
+"wr.view.question.whitemeat" = "Pour les viandes blanches, nous vous recommandons de regarder les vins blancs.";
+"wr.view.question.seafood" = "Pour les fruits de mer, nous vous recommandons de regarder les vins blancs.";
+"wr.view.question.other" = "Pour les autres repas, nous recommandons les vins rouges et blancs.";
+"wr.view.question.defaultfood" = "Veuillez sélectionner un cépage à recommander parmi les options ci-dessous.";
+
+
+//Food
+"wr.food.red" = "Viande rouge";
+"wr.food.white" = "Viande blanche";
+"wr.food.seafood" = "Fruit de mer";
+"wr.food.other" = "Autre";
+
+// Varietal Type
+"wr.type.red" = "Rouge";
+"wr.type.white" = "Blanc";
+"wr.type.redwine" = "Vin Rouge";
+"wr.type.whitewine" = "Vin Blanc";
+"wr.type.blend" = "Vin Rouge ou Vin Blanc";
+
+// Tannins
+"wr.amarone.tannin" = "Moyen";
+"wr.barbera.tannin" = "Faible";
+"wr.cabernetfranc.tannin" = "Moyen-élevé";
+"wr.cabernetsauvignon.tannin" = "Dense, sombre, tannique";
+"wr.carmenere.tannin" = "Moyen";
+"wr.champangeblend.tannin" = "Rien";
+"wr.chardonnay.tannin" = "Faible";
+"wr.cheninblanc.tannin" = "Rien";
+"wr.gamay.tannin" = "Faible à aucun";
+"wr.gewurztraminer.tannin" = "Rien";
+"wr.grenache.tannin" = "Moyen";
+"wr.grunerveltliner.tannin" = "Rien";
+"wr.malbec.tannin" = "Moyen";
+"wr.merlot.tannin" = "Moyen";
+"wr.nebbiolo.tannin" = "Haut";
+"wr.petitesirah.tannin" = "Haut";
+"wr.pinotgris.tannin" = "Rien";
+"wr.pinotnoir.tannin" = "Tanins légers";
+"wr.port.tannin" = "Haut";
+"wr.redblend.tannin" = "Large gamme, moyenne à élevée";
+"wr.riesling.tannin" = "Rien";
+"wr.rose.tannin" = "Léger";
+"wr.sangiovese.tannin" = "Haut";
+"wr.sauvignonblanc.tannin" = "Acide, sec";
+"wr.sparklingblend.tannin" = "Rien";
+"wr.syrah.tannin" = "Haut";
+"wr.tempranillo.tannin" = "Moyen-élevé, acide, complexe";
+"wr.viognier.tannin" = "Rien";
+"wr.whiteblend.tannin" = "Faible à imperceptible";
+"wr.zinfandel.tannin" = "Moyen à moyen-élevé";
+
+// Grape
+"wr.amarone.grape" = "Mélange de trois cépages italiens: Corvina, Rondinella, Molinara";
+"wr.barbera.grape" = "Raisin rouge italien";
+"wr.cabernetfranc.grape" = "Cépage bleu-noir, parent du Merlot et du Cabernet Sayvignon";
+"wr.cabernetsauvignon.grape" = "Peau petite, sphérique, noire, épaisse";
+"wr.carmenere.grape" = "Cépage Cabernet rouge";
+"wr.champangeblend.grape" = "Assemblage de cépages blancs. Chardonnay, Pinot Noir, Pinot Meunier";
+"wr.chardonnay.grape" = "A la peau verte, robuste";
+"wr.cheninblanc.grape" = "Raisin d'or blanc";
+"wr.gamay.grape" = "Petit raisin rond et violet";
+"wr.gewurztraminer.grape" = "Raisin rose";
+"wr.grenache.grape" = "Raisin violet foncé";
+"wr.grunerveltliner.grape" = "Raisin vert foncé";
+"wr.malbec.grape" = "Raisin violet à peau fine";
+"wr.merlot.grape" = "Raisin de couleur bleu foncé";
+"wr.nebbiolo.grape" = "Gros raisin violet, peau épaisse";
+"wr.petitesirah.grape" = "Raisin à peau foncée";
+"wr.pinotgris.grape" = "Couleur bleu grisâtre (Gris)";
+"wr.pinotnoir.grape" = "Raisin à peau rouge";
+"wr.port.grape" = "Mélange de raisins rouges portugais.";
+"wr.redblend.grape" = "Assemblages de raisins rouges";
+"wr.riesling.grape" = "A la peau verte";
+"wr.rose.grape" = "Beaucoup de cépages, couleur rose";
+"wr.sangiovese.grape" = "Peau petite, sphérique, violet foncé";
+"wr.sauvignonblanc.grape" = "Raisin vert, peau fine";
+"wr.sparklingblend.grape" = "Assemblages de cépages blancs";
+"wr.syrah.grape" = "Raisin à peau foncée";
+"wr.tempranillo.grape" = "Raisin violet-bleu";
+"wr.viognier.grape" = "Raisin vert";
+"wr.whiteblend.grape" = "Assemblages de cépages blancs";
+"wr.zinfandel.grape" = "Raisin de cuve à peau noire";
+
+// Region
+"wr.amarone.region" = "Italie";
+"wr.barbera.region" = "Montferrat (Italie), Californie, Australie, Argentine";
+"wr.cabernetfranc.region" = "Bordeaux, Loire, Canada";
+"wr.cabernetsauvignon.region" = "Bordeaux, Toscane, Montagnes de Santa Cruz, Napa Valley, Comté de Sonoma, Australie, Margaret River, Afrique du Sud, Frioul, Colombie-Britannique, Canada";
+"wr.carmenere.region" = "Chili, Italie, Washington, Californie, Caroline du Nord";
+"wr.champangeblend.region" = "Région Champagne, France";
+"wr.chardonnay.region" = "Australie, Italie, Californie, Nouvelle-Zélande, monde entier";
+"wr.cheninblanc.region" = "Vallée de la Loire, France, Afrique du Sud";
+"wr.gamay.region" = "Beaujolais, Vallée de la Loire, Péninsule du Niagara, Vallée de la Willamette";
+"wr.gewurztraminer.region" = "Alsace, Allemagne, Italie du Nord-Est, Nouvelle-Zélande, Suisse, USA, Canada, Australie-Méridionale";
+"wr.grenache.region" = "Aragon, Alella, Priorat, Roussillon, Rhône, Sardaigne, Rioja";
+"wr.grunerveltliner.region" = "Basse-Autriche, Burgenland, Slovaquie, Moravie";
+"wr.malbec.region" = "Cahors, Argentine, Chili";
+"wr.merlot.region" = "Bordeaux, Long Island, Comté de Sonoma, Vallée centrale chilienne, Napa Valley, Roumanie, Australie, Hongrie";
+"wr.nebbiolo.region" = "Piémont, Italie";
+"wr.petitesirah.region" = "Australie, Californie, France, Israël";
+"wr.pinotgris.region" = "Italie, Californie, Oregon et Allemagne";
+"wr.pinotnoir.region" = "Bourgogne, montagnes de Santa Cruz, vallée de la rivière russe, vallée de la Willamette, Marlborough, Martinbourough, Australie, Roumanie";
+"wr.port.region" = "Vallée du fleuve Douro, Portugal";
+"wr.redblend.region" = "Californie";
+"wr.riesling.region" = "Allemagne, Californie, Alsace (France), Finger Lakes (NY), État de Washington, Australie/Nouvelle-Zélande";
+"wr.rose.region" = "Vallée du Rhône, Tavel, Provence, Navarre, Australie, Californie";
+"wr.sangiovese.region" = "Italie, Toscane, État de Washington";
+"wr.sauvignonblanc.region" = "Afrique du Sud, Chili, Nouvelle-Zélande, Californie, Iran, Val de Loire, Bordeaux, Ukraine";
+"wr.sparklingblend.region" = "Sonoma, Champagne, Allemagne, Autriche";
+"wr.syrah.region" = "France, Australie, Amérique du Sud, Californie";
+"wr.tempranillo.region" = "Espagne, Portugal, Rioja";
+"wr.viognier.region" = "Croatie, France, Vallée du Rhône";
+"wr.whiteblend.region" = "À l'échelle mondiale";
+"wr.zinfandel.region" = "Californie, États-Unis et Pouilles, Italie";
+
+// Climate (Cool)
+"wr.amarone.cool" = "Mélange - Varie.";
+"wr.barbera.cool" = "Fruits rouges frais, cerise, fraise";
+"wr.cabernetfranc.cool" = "Acide, corps léger, fraise";
+"wr.cabernetsauvignon.cool" = "Végétal, poivron, asperge";
+"wr.carmenere.cool" = "Framboise, poivron, légère acidité";
+"wr.champangeblend.cool" = "Varie.";
+"wr.chardonnay.cool" = "Léger, vif, acidité élevée";
+"wr.cheninblanc.cool" = "Acidité élevée, vin mousseux, coing, pomme jaune";
+"wr.gamay.cool" = "Brillant, acide, fraise, grenade";
+"wr.gewurztraminer.cool" = "Arômes puissants, rose, fruit de la passion, litchi";
+"wr.grenache.cool" = "Framboise, orange sanguine, herbes séchées";
+"wr.grunerveltliner.cool" = "Pure, minéralité, gravier broyé";
+"wr.malbec.cool" = "Plus doux, cerise noire, framboise";
+"wr.merlot.cool" = "Fraise, fruits rouges, prune, cèdre, tabac";
+"wr.nebbiolo.cool" = "Acide, argileux, minéral";
+"wr.petitesirah.cool" = "Myrtille, thé noir";
+"wr.pinotgris.cool" = "Acidité, légère douceur, pomme";
+"wr.pinotnoir.cool" = "Chou, feuilles mouillées";
+"wr.port.cool" = "Varie.";
+"wr.redblend.cool" = "Acidité, acidité, corps plus léger";
+"wr.riesling.cool" = "Acide, pomme, fruit du verger";
+"wr.rose.cool" = "Menthe, pamplemousse, fraise";
+"wr.sangiovese.cool" = "Acidité élevée, sous mûri";
+"wr.sauvignonblanc.cool" = "Fruit de la passion, pamplemousse, citron vert";
+"wr.sparklingblend.cool" = "Sec, maigre, piquant";
+"wr.syrah.cool" = "Fruits rouges, acidité élevée, mûre";
+"wr.tempranillo.cool" = "prune, tabac, vanille";
+"wr.viognier.cool" = "Sous mûre, acidité, citron vert";
+"wr.whiteblend.cool" = "Acidité, acidité, corps plus léger";
+"wr.zinfandel.cool" = "Fruits rouges, framboise, fraise";
+
+// Climate (Moderate)
+"wr.amarone.moderate" = "-";
+"wr.barbera.moderate" = "Myrtille, herbes séchées, cerise noire";
+"wr.cabernetfranc.moderate" = "framboise, cassis, poivron";
+"wr.cabernetsauvignon.moderate" = "Tabac, poivre noir, eucalyptus";
+"wr.carmenere.moderate" = "Poivron, paprika, vanille";
+"wr.champangeblend.moderate" = "Toast, amande, crème, pomme jaune, agrumes";
+"wr.chardonnay.moderate" = "Miel, fruits tropicaux";
+"wr.cheninblanc.moderate" = "Mûr, aromatique, camomille, miel, poire";
+"wr.gamay.moderate" = "Mûre, pivoine, violette";
+"wr.gewurztraminer.moderate" = "Pamplemousse, mandarine, gingembre";
+"wr.grenache.moderate" = "Fraise compotée, herbes séchées, poivre blanc";
+"wr.grunerveltliner.moderate" = "Agrumes, pêche, poivre blanc";
+"wr.malbec.moderate" = "Vanille, tabac doux, cacao";
+"wr.merlot.moderate" = "Mûre, prune noire, cerise noire";
+"wr.nebbiolo.moderate" = "Épicé, rose, cuir";
+"wr.petitesirah.moderate" = "Épicé, dragée";
+"wr.pinotgris.moderate" = "Poire, melon, citron";
+"wr.pinotnoir.moderate" = "Fraise, framboise, cerise, champignon, viande";
+"wr.port.moderate" = "Prune, cerise, chocolat, raisin sec, cannelle";
+"wr.redblend.moderate" = "Épicé";
+"wr.riesling.moderate" = "Cire d'abeille, jasmin, poire";
+"wr.rose.moderate" = "Framboise, hibiscus, poivre blanc";
+"wr.sangiovese.moderate" = "Tarte cerise, fraise, prune rouge";
+"wr.sauvignonblanc.moderate" = "Dattes, papaye, melon";
+"wr.sparklingblend.moderate" = "Léger, sec, fruité, floral";
+"wr.syrah.moderate" = "Menthe, eucalyptus, viande fumée, poivre noir";
+"wr.tempranillo.moderate" = "baies, herbe";
+"wr.viognier.moderate" = "Aromatique, rose, pêche, chèvrefeuille";
+"wr.whiteblend.moderate" = "Épicé, citronnelle, camomille";
+"wr.zinfandel.moderate" = "Cerise noire, tabac doux, cannelle";
+
+// Climate (Hot)
+"wr.amarone.hot" = "Mélange - Varie.";
+"wr.barbera.hot" = "Réglisse, mûre, poivre noir";
+"wr.cabernetfranc.hot" = "Piment, tabac, gravier concassé";
+"wr.cabernetsauvignon.hot" = "Confiture, fruits noirs, mûre, cerise noire";
+"wr.carmenere.hot" = "Prune noire, vanille, confiture";
+"wr.champangeblend.hot" = "Varie.";
+"wr.chardonnay.hot" = "Pomme, poire, mûre";
+"wr.cheninblanc.hot" = "Sur mûre, marmelade d'orange, gingembre, safran";
+"wr.gamay.hot" = "Cerise noire, poivre noir, pierre, craie";
+"wr.gewurztraminer.hot" = "Ne fonctionne pas bien dans un climat chaud";
+"wr.grenache.hot" = "Prune, cuir, corps entier";
+"wr.grunerveltliner.hot" = "Tabac, carambole, asperge";
+"wr.malbec.hot" = "Fruits noirs, mûre, prune";
+"wr.merlot.hot" = "Gâteau aux fruits, chocolat";
+"wr.nebbiolo.hot" = "Cerise noire, anis, cuir";
+"wr.petitesirah.hot" = "Chocolat noir, poivre noir, cuir";
+"wr.pinotgris.hot" = "Riche, floral, amande, pêche";
+"wr.pinotnoir.hot" = "Trop mûr";
+"wr.port.hot" = "Varie.";
+"wr.redblend.hot" = "Fruits mûrs, confiturés";
+"wr.riesling.hot" = "Agrumes, pêche, citron vert";
+"wr.rose.hot" = "Confiture, poivron, poivre noir";
+"wr.sangiovese.hot" = "Mûr, figue, balsamique, expresso";
+"wr.sauvignonblanc.hot" = "mûr";
+"wr.sparklingblend.hot" = "Doux, parfumé";
+"wr.syrah.hot" = "Réglisse, clous de girofle, expresso, moka, chocolat noir";
+"wr.tempranillo.hot" = "Cuir";
+"wr.viognier.hot" = "Fruits mûrs, mandarine, mangue";
+"wr.whiteblend.hot" = "Fruits mûrs, confiturés, pamplemousse";
+"wr.zinfandel.hot" = "Mûre, anis, prune noire";
+
+// Varietal Descriptions
+"wr.amarone.description" = "Attendez-vous à des arômes audacieux de liqueur de cerise, de figue noire, de caroube, de cannelle et de sauce aux prunes accompagnés de notes subtiles de poivre vert, de chocolat et de poussière de gravier concassé. En bouche, les vins d'Amarone ont souvent une acidité moyenne à élevée équilibrée avec un degré élevé d'alcool et des saveurs de cerise noire, de cassonade et de chocolat.";
+"wr.barbera.description" = "Le Barbera est le troisième cépage rouge le plus planté en Italie (après le Sangiovese et le Montepulciano). Le Barbera est connu pour sa couleur profonde, son corps plein, ses tanins faibles et son acidité élevée.";
+"wr.cabernetfranc.description" = "Le Cabernet Franc est le cépage parent du Merlot et du Cabernet Sauvignon. Il en résulte des rouges complexes aux arômes de framboise, de ronce et de poivron.";
+"wr.cabernetsauvignon.description" = "Le cépage rouge le plus populaire au monde est un croisement naturel entre le cabernet franc et le sauvignon blanc de Bordeaux, en France. Le Cabernet Sauvignon est apprécié pour sa haute concentration et sa capacité à vieillir.";
+"wr.carmenere.description" = "Les saveurs herbacées et poivrées de Carmenere embellissent à merveille les viandes rôties (du poulet au bœuf) et les plats salés épicés au cumin.";
+"wr.champangeblend.description" = "Le vin mousseux le plus emblématique au monde est un assemblage de cépages dont le Chardonnay, le Pinot Noir et le Pinot Meunier. Les vins de Champagne présentent souvent des saveurs d'amande, avec des notes subtiles de zeste d'orange et de cerise blanche. Les vins de Champagne les plus précieux vieillissent au moins trois ans.";
+"wr.chardonnay.description" = "L'un des cépages les plus populaires au monde, le Chardonnay est élaboré dans une large gamme de styles allant des Blancs de Blancs maigres et pétillants aux vins blancs riches et crémeux élevés en fût de chêne.";
+"wr.cheninblanc.description" = "Le Chenin Blanc est cultivé dans le monde entier, notamment dans la vallée de la Loire en France et en Afrique du Sud. Ce qui est étonnant avec cette variété, c'est la diversité des styles, des vins mousseux et des blancs maigres et secs aux nectars doux et dorés et au brandy.";
+"wr.gamay.description" = "Un rouge léger fruité, floral et parfois terreux qui est le cépage principal planté en Beaujolais. En dehors de la France, le Gamay a un petit nombre de fidèles.";
+"wr.gewurztraminer.description" = "Chéri pour ses arômes floraux intenses, le Gewürztraminer a prospéré pendant des siècles en Allemagne. Des exemples de qualité sont dignes d'âge, mais la plupart sont mieux dégustés dans leur jeunesse pour préserver l'acidité.";
+"wr.grenache.description" = "Grenache (alias Garnacha) produit des vins rouges riches et savoureux et des rosés profonds aux teintes rubis. Les Français ont défendu ce cépage dans le sud de la vallée du Rhône, mais c'est en Espagne qu'il est originaire.";
+"wr.grunerveltliner.description" = "Le vin le plus important d'Autriche est produit dans une myriade de styles, dont les plus populaires sont les vins maigres, herbacés et poivrés avec une acidité alléchante.";
+"wr.malbec.description" = "La variété la plus importante d'Argentine est passée par la France, où elle est communément appelée Côt. Les vins sont appréciés pour leurs riches saveurs de fruits noirs et leur douce finale chocolatée.";
+"wr.merlot.description" = "Le merlot est apprécié pour ses saveurs turbulentes de cerise noire, ses tanins souples et sa finale chocolatée. Dans le haut de gamme, il est souvent confondu avec le Cabernet Sauvignon et souvent mélangé avec lui.";
+"wr.nebbiolo.description" = "L'un des cépages rouges les plus importants d'Italie, rendu célèbre par la région de Barolo dans le Piémont, où les vins offrent des arômes délicats accompagnés de tanins puissants.";
+"wr.petitesirah.description" = "Petit Sirah est apprécié pour ses vins profondément colorés avec de riches saveurs de fruits noirs et des tanins audacieux. Le cépage lié à la Syrah et le cépage français rare, le Peloursin. Malgré sa popularité, la Petite Sirah est un cépage exceptionnellement rare avec moins de dix mille acres plantés dans le monde, poussant principalement en Californie.";
+"wr.pinotgris.description" = "Le Pinot Gris (alias Pinot Grigio) est une mutation de cépage rosé du Pinot Noir. Il est réputé pour ses vins blancs piquants, mais peut également être utilisé pour le rosé. Regardez vers l'Italie du Nord, l'Oregon et l'Alsace pour des exemples de référence.";
+"wr.pinotnoir.description" = "Le Pinot Noir est le vin rouge au corps léger le plus populaire au monde. Il est apprécié pour ses arômes de fruits rouges, de fleurs et d'épices qui sont accentués par une longue finale onctueuse.";
+"wr.port.description" = "Le fleuron du Portugal ; un vin fortifié vieilli et doux qui se décline dans une large gamme de styles, largement basés sur des techniques de vieillissement. Les styles couramment observés incluent le rubis et le fauve. Le nom le plus reconnaissable des vins de dessert.";
+"wr.redblend.description" = "Un assemblage est défini comme un vin qui n'est pas issu d'un cépage spécifique. L'assemblage du vin permet aux vignerons d'adapter la saveur du vin. Les mélanges de vins rouges sont le deuxième vin le plus acheté en volume aux États-Unis.";
+"wr.riesling.description" = "Un cépage blanc aromatique qui peut produire des vins blancs dont le style varie du très sec au très doux. L'Allemagne est le premier producteur mondial de Riesling.";
+"wr.rose.description" = "Le rosé est un style de vin rosé issu d'un mélange de raisins rouges et blancs. Considéré comme plus doux, fruité, sec et minéral.";
+"wr.sangiovese.description" = "Le cépage le plus planté d'Italie et la fierté du vin régional toscan, le Chianti. Le sangiovese est un cépage sensible qui prend différentes expressions stylistiques en fonction de l'endroit où il pousse.";
+"wr.sauvignonblanc.description" = "Un vin blanc populaire et incomparable qui est apprécié pour ses saveurs herbacées « vertes » et son acidité racée. Le sauvignon blanc pousse presque partout et offre ainsi une variété de styles allant du maigre au généreux.";
+"wr.sparklingblend.description" = "Les vins mousseux sont généralement créés à partir d'un mélange de raisins de cuve blancs et subissent une fermentation pour créer une carbonatation. De nombreux profils de saveurs peuvent être créés en fonction du mélange : sec et piquant, fruité et floral, crémeux et noisette, sucré et parfumé.";
+"wr.syrah.description" = "A rich, powerful, and sometimes meaty red wine that originated in the Rhône Valley of France. Syrah is the most planted grape of Australia, where they call it Shiraz.";
+"wr.tempranillo.description" = "Le meilleur vin rouge d'Espagne, rendu célèbre par la Rioja, où les vins sont classés (en partie) en fonction de leur durée de vieillissement en fût de chêne. Ce qui est étonnant, c'est un Tempranillo bien fait qui vieillit pendant plus de vingt ans.";
+"wr.viognier.description" = "Un vin blanc riche et huileux originaire du Rhône septentrional et dont la popularité ne cesse de croître en Californie, en Australie et au-delà. Les vins sont souvent élevés en fûts de chêne pour offrir une richesse semblable à celle du Chardonnay.";
+"wr.whiteblend.description" = "Un assemblage est défini comme un vin qui n'est pas issu d'un cépage spécifique. L'assemblage du vin permet aux vignerons d'adapter la saveur du vin. La plupart des mélanges blancs auront des notes d'agrumes et de fruits blancs.";
+"wr.zinfandel.description" = "Le vin Zinfandel est un rouge fruité audacieux qui est apprécié pour ses notes de fruits confiturés et d'épices exotiques et fumées. Il peut également être transformé en un rosé doux appelé White Zinfandel.";
+// Varietal

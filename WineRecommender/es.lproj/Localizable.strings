@@ -1,0 +1,271 @@
+/*
+  Localizable.strings
+  WineRecommender
+
+  Created by Stephen Koch on 2/2/22.
+  
+  English (US)
+*/
+
+//Titles
+"wr.title.app" = "Recomendador de Vino";
+"wr.title.language" = "Idioma";
+"wr.title.selectyourgrape" = "Seleccione su uva";
+"wr.title.savedrecommendations" = "Recomendaciones Guardadas";
+
+//Buttons
+"wr.button.getstarted" = "Empezar";
+"wr.button.yes" = "Sí";
+"wr.button.no" = "No";
+"wr.button.select" = "Seleccionar";
+
+//View Content
+"wr.view.home.explainationlanguage" = "Para que los cambios surtan efecto, cierre y reinicie manualmente la aplicación.";
+
+"wr.view.question.whitered" = "¿Desea ayuda para decidir entre un vino blanco y un vino tinto?";
+"wr.view.question.youselected" = "Ha seleccionado:";
+"wr.view.question.nothing" = "Nada";
+
+"wr.view.question.limitrecommendation" = "Limite su recomendación a vinos tintos o blancos.";
+"wr.view.question.redmeat" = "Para carnes rojas, recomendamos buscar vinos tintos.";
+"wr.view.question.whitemeat" = "Para carnes blancas, recomendamos buscar vinos blancos.";
+"wr.view.question.seafood" = "Para pescados y mariscos, recomendamos buscar vinos blancos.";
+"wr.view.question.other" = "Para otras comidas, recomendamos vinos tintos y blancos.";
+"wr.view.question.defaultfood" = "Seleccione una uva para recomendar de las siguientes opciones.";
+
+//Food
+"wr.food.red" = "Carne roja";
+"wr.food.white" = "Carne blanca";
+"wr.food.seafood" = "Mariscos";
+"wr.food.other" = "Otra";
+
+// Varietal Type
+"wr.type.red" = "Rojo";
+"wr.type.white" = "Blanco";
+"wr.type.redwine" = "Vino Tinto";
+"wr.type.whitewine" = "Vino Blanco";
+"wr.type.blend" = "Vino Tinto o Vino Blanco";
+
+// Tannins
+"wr.amarone.tannin" = "Medio";
+"wr.barbera.tannin" = "Bajo";
+"wr.cabernetfranc.tannin" = "Altura media";
+"wr.cabernetsauvignon.tannin" = "Denso, oscuro, tánico";
+"wr.carmenere.tannin" = "Medio";
+"wr.champangeblend.tannin" = "Ninguna";
+"wr.chardonnay.tannin" = "Bajo";
+"wr.cheninblanc.tannin" = "Ninguna";
+"wr.gamay.tannin" = "Bajo a ninguno";
+"wr.gewurztraminer.tannin" = "Ninguna";
+"wr.grenache.tannin" = "Medio";
+"wr.grunerveltliner.tannin" = "Ninguna";
+"wr.malbec.tannin" = "Medio";
+"wr.merlot.tannin" = "Medio";
+"wr.nebbiolo.tannin" = "Elevado";
+"wr.petitesirah.tannin" = "Elevado";
+"wr.pinotgris.tannin" = "Ninguna";
+"wr.pinotnoir.tannin" = "taninos ligeros";
+"wr.port.tannin" = "Elevado";
+"wr.redblend.tannin" = "Amplio rango, medio a alto";
+"wr.riesling.tannin" = "Ninguna";
+"wr.rose.tannin" = "Luz";
+"wr.sangiovese.tannin" = "Elevado";
+"wr.sauvignonblanc.tannin" = "ácido, seco";
+"wr.sparklingblend.tannin" = "Ninguna";
+"wr.syrah.tannin" = "Elevado";
+"wr.tempranillo.tannin" = "Medio-alto, ácido, complejo";
+"wr.viognier.tannin" = "Ninguna";
+"wr.whiteblend.tannin" = "Bajo a imperceptible";
+"wr.zinfandel.tannin" = "Medio a Medio-Alto";
+
+// Grape
+"wr.amarone.grape" = "Mezcla de tres uvas italianas: Corvina, Rondinella, Molinara";
+"wr.barbera.grape" = "uva roja italiana";
+"wr.cabernetfranc.grape" = "Uva azul-negra, padre de Merlot y Cabernet Sayvignon";
+"wr.cabernetsauvignon.grape" = "Piel pequeña, esférica, negra, gruesa";
+"wr.carmenere.grape" = "uva de vino tinto cabernet";
+"wr.champangeblend.grape" = "Coupage de uvas de vino blanco. Chardonnay, Pinot Noir, Pinot Meunier";
+"wr.chardonnay.grape" = "De piel verde, robusto";
+"wr.cheninblanc.grape" = "Uva de oro blanco";
+"wr.gamay.grape" = "Uva pequeña, redonda, morada";
+"wr.gewurztraminer.grape" = "Uva de color rosa";
+"wr.grenache.grape" = "Uva morada oscura";
+"wr.grunerveltliner.grape" = "Uva de color verde oscuro";
+"wr.malbec.grape" = "Uva morada con piel fina";
+"wr.merlot.grape" = "Uva de color azul oscuro";
+"wr.nebbiolo.grape" = "Gran uva morada, piel gruesa";
+"wr.petitesirah.grape" = "uva de piel oscura";
+"wr.pinotgris.grape" = "Color azul grisáceo (Gris)";
+"wr.pinotnoir.grape" = "uva de piel roja";
+"wr.port.grape" = "Mezcla de uvas rojas portuguesas.";
+"wr.redblend.grape" = "Mezclas de uvas de vino tinto";
+"wr.riesling.grape" = "Piel verde";
+"wr.rose.grape" = "Muchos tipos de uva, color rosa";
+"wr.sangiovese.grape" = "Piel pequeña, esférica, de color púrpura oscuro";
+"wr.sauvignonblanc.grape" = "Uva verde, piel fina";
+"wr.sparklingblend.grape" = "Coupages de uvas de vino blanco";
+"wr.syrah.grape" = "uva de piel oscura";
+"wr.tempranillo.grape" = "Uva violeta-azul";
+"wr.viognier.grape" = "uva verde";
+"wr.whiteblend.grape" = "Coupages de uvas de vino blanco";
+"wr.zinfandel.grape" = "Uva de vino de piel negra";
+
+// Region
+"wr.amarone.region" = "Italia";
+"wr.barbera.region" = "Montferrat (Italia), California, Australia, Argentina";
+"wr.cabernetfranc.region" = "Burdeos, Loira, Canadá";
+"wr.cabernetsauvignon.region" = "Burdeos, Toscana, Montañas de Santa Cruz, Valle de Napa, Condado de Sonoma, Australia, Río Margaret, Sudáfrica, Friuli, Columbia Británica, Canadá";
+"wr.carmenere.region" = "Chile, Italia, Washington, California, Carolina del Norte";
+"wr.champangeblend.region" = "Región de Champaña, Francia";
+"wr.chardonnay.region" = "Australia, Italia, California, Nueva Zelanda, en todo el mundo";
+"wr.cheninblanc.region" = "Valle del Loira, Francia, Sudáfrica";
+"wr.gamay.region" = "Beaujolais, Valle del Loira, Península de Niágara, Valle de Willamette";
+"wr.gewurztraminer.region" = "Alsacia, Alemania, noreste de Italia, Nueva Zelanda, Suiza, EE. UU., Canadá, sur de Australia";
+"wr.grenache.region" = "Aragón, Alella, Priorat, Rosellón, Ródano, Cerdeña, Rioja";
+"wr.grunerveltliner.region" = "Baja Austria, Burgenland, Eslovaquia, Moravia";
+"wr.malbec.region" = "Cahors, Argentina, Chile";
+"wr.merlot.region" = "Burdeos, Long Island, Condado de Sonoma, Valle Central de Chile, Valle de Napa, Rumania, Australia, Hungría";
+"wr.nebbiolo.region" = "Piamonte, Italia";
+"wr.petitesirah.region" = "Australia, California, Francia, Israel";
+"wr.pinotgris.region" = "Italia, California, Oregón y Alemania";
+"wr.pinotnoir.region" = "Borgoña, Montañas de Santa Cruz, Russian River Valley, Willamette Valley, Marlborough, Martinbourough, Australia, Rumania";
+"wr.port.region" = "Valle del río Duero, Portugal";
+"wr.redblend.region" = "California";
+"wr.riesling.region" = "Alemania, California, Alsacia (Francia), Finger Lakes (NY), Estado de Washington, Australia/Nueva Zelanda";
+"wr.rose.region" = "Valle del Ródano, Tavel, Provenza, Navarra, Australia, California";
+"wr.sangiovese.region" = "Italia, Toscana, Estado de Washington";
+"wr.sauvignonblanc.region" = "Sudáfrica, Chile, Nueva Zelanda, California, Irán, Valle del Loira, Burdeos, Ucrania";
+"wr.sparklingblend.region" = "Sonoma, Champaña, Alemania, Austria";
+"wr.syrah.region" = "Francia, Australia, América del Sur, California";
+"wr.tempranillo.region" = "España, Portugal, La Rioja";
+"wr.viognier.region" = "Croacia, Francia, Valle del Ródano";
+"wr.whiteblend.region" = "En todo el mundo";
+"wr.zinfandel.region" = "California, Estados Unidos y Puglia, Italia";
+
+// Climate (Cool)
+"wr.amarone.cool" = "Mezcla - Varía.";
+"wr.barbera.cool" = "Frutos rojos frescos, cereza, fresa";
+"wr.cabernetfranc.cool" = "Ácido, cuerpo ligero, fresa";
+"wr.cabernetsauvignon.cool" = "Vegetal, pimiento, espárragos";
+"wr.carmenere.cool" = "Frambuesa, pimiento morrón, acidez suave";
+"wr.champangeblend.cool" = "Varía.";
+"wr.chardonnay.cool" = "Magro, crujiente, alta acidez";
+"wr.cheninblanc.cool" = "Acidez alta, vino espumoso, membrillo, manzana amarilla";
+"wr.gamay.cool" = "Brillante, ácida, fresa, granada.";
+"wr.gewurztraminer.cool" = "Aromas fuertes, rosa, maracuyá, lichi.";
+"wr.grenache.cool" = "Frambuesa, naranja sanguina, hierbas secas";
+"wr.grunerveltliner.cool" = "Pura, mineralidad, grava triturada";
+"wr.malbec.cool" = "Más dulce, cereza negra, frambuesa";
+"wr.merlot.cool" = "Fresa, frutos rojos, ciruela, cedro, tabaco";
+"wr.nebbiolo.cool" = "Ácido, arcilloso, mineral";
+"wr.petitesirah.cool" = "Arándano, té negro";
+"wr.pinotgris.cool" = "Acidez, ligero dulzor, manzana";
+"wr.pinotnoir.cool" = "Repollo, hojas mojadas";
+"wr.port.cool" = "Varía.";
+"wr.redblend.cool" = "Acidez, tarta, cuerpo más ligero.";
+"wr.riesling.cool" = "Ácido, manzana, fruta de árbol";
+"wr.rose.cool" = "menta, pomelo, fresa";
+"wr.sangiovese.cool" = "Alta acidez, bajo maduración";
+"wr.sauvignonblanc.cool" = "Maracuyá, pomelo, lima";
+"wr.sparklingblend.cool" = "Seco, magro, sabroso";
+"wr.syrah.cool" = "frutos rojos, acidez alta, mora";
+"wr.tempranillo.cool" = "ciruela, tabaco, vainilla";
+"wr.viognier.cool" = "Bajo maduro, acidez, lima";
+"wr.whiteblend.cool" = "Acidez, tarta, cuerpo más ligero.";
+"wr.zinfandel.cool" = "Frutos de baya roja, frambuesa, fresa";
+
+// Climate (Moderate)
+"wr.amarone.moderate" = "-";
+"wr.barbera.moderate" = "Arándano, hierbas secas, cereza negra";
+"wr.cabernetfranc.moderate" = "frambuesa, cassis, pimiento";
+"wr.cabernetsauvignon.moderate" = "Tabaco, pimienta negra, eucalipto";
+"wr.carmenere.moderate" = "Pimiento morrón, paprika, vainilla";
+"wr.champangeblend.moderate" = "Tostada, almendra, nata, manzana amarilla, cítricos";
+"wr.chardonnay.moderate" = "miel, frutas tropicales";
+"wr.cheninblanc.moderate" = "Maduro, aromático, manzanilla, miel, pera";
+"wr.gamay.moderate" = "Mora, peonía, violeta";
+"wr.gewurztraminer.moderate" = "Pomelo, mandarina, jengibre";
+"wr.grenache.moderate" = "Fresa guisada, hierbas secas, pimienta blanca";
+"wr.grunerveltliner.moderate" = "Cítricos, melocotón, pimienta blanca";
+"wr.malbec.moderate" = "Vainilla, tabaco dulce, cacao";
+"wr.merlot.moderate" = "Mora, ciruela negra, cereza negra";
+"wr.nebbiolo.moderate" = "Especiado, rosa, cuero";
+"wr.petitesirah.moderate" = "Picante, ciruela";
+"wr.pinotgris.moderate" = "pera, melón, limón";
+"wr.pinotnoir.moderate" = "Fresa, frambuesa, cereza, champiñón, carnoso";
+"wr.port.moderate" = "Ciruela, cereza, chocolate, pasas, canela";
+"wr.redblend.moderate" = "Picante";
+"wr.riesling.moderate" = "Cera de abeja, jazmín, pera";
+"wr.rose.moderate" = "frambuesa, hibisco, pimienta blanca";
+"wr.sangiovese.moderate" = "Tarta de cereza, fresa, ciruela roja";
+"wr.sauvignonblanc.moderate" = "Dátiles, papaya, melón";
+"wr.sparklingblend.moderate" = "Ligero, seco, afrutado, floral.";
+"wr.syrah.moderate" = "Menta, eucalipto, carne ahumada, pimienta negra";
+"wr.tempranillo.moderate" = "bayas, hierba";
+"wr.viognier.moderate" = "Aromático, rosa, melocotón, madreselva";
+"wr.whiteblend.moderate" = "Picante, limoncillo, manzanilla";
+"wr.zinfandel.moderate" = "Cereza negra, tabaco dulce, canela";
+
+// Climate (Hot)
+"wr.amarone.hot" = "Mezcla - Varía.";
+"wr.barbera.hot" = "regaliz, mora, pimienta negra";
+"wr.cabernetfranc.hot" = "Pimienta picante, tabaco, grava triturada";
+"wr.cabernetsauvignon.hot" = "Mermelada, frutos negros, mora, cereza negra";
+"wr.carmenere.hot" = "ciruela negra, vainilla, mermelada";
+"wr.champangeblend.hot" = "Varía.";
+"wr.chardonnay.hot" = "Manzana, pera, madura";
+"wr.cheninblanc.hot" = "Sobre maduro, mermelada de naranja, jengibre, azafrán";
+"wr.gamay.hot" = "Cereza negra, pimienta negra, hueso, tiza";
+"wr.gewurztraminer.hot" = "No funciona bien en climas cálidos.";
+"wr.grenache.hot" = "Ciruela, cuero, cuerpo completo";
+"wr.grunerveltliner.hot" = "Tabaco, carambola, espárragos";
+"wr.malbec.hot" = "Fruta oscura, mora, ciruela";
+"wr.merlot.hot" = "pastel de frutas, chocolate";
+"wr.nebbiolo.hot" = "Cereza negra, anís, cuero";
+"wr.petitesirah.hot" = "Chocolate negro, pimienta negra, cuero";
+"wr.pinotgris.hot" = "Rico, floral, almendra, melocotón.";
+"wr.pinotnoir.hot" = "demasiado maduro";
+"wr.port.hot" = "Varía.";
+"wr.redblend.hot" = "Fruta madura, mermelada";
+"wr.riesling.hot" = "Cítricos, melocotón, lima";
+"wr.rose.hot" = "Mermelada, pimiento morrón, pimienta negra";
+"wr.sangiovese.hot" = "Maduro, higo, balsámico, espresso";
+"wr.sauvignonblanc.hot" = "maduro";
+"wr.sparklingblend.hot" = "dulce, perfumado";
+"wr.syrah.hot" = "Regaliz, clavo, espresso, moca, chocolate negro";
+"wr.tempranillo.hot" = "Cuero";
+"wr.viognier.hot" = "Fruta madura, mandarina, mango";
+"wr.whiteblend.hot" = "Fruta madura, mermelada, pomelo";
+"wr.zinfandel.hot" = "Mora, anís, ciruela negra";
+
+// Varietal Descriptions
+"wr.amarone.description" = "Espere aromas audaces de licor de cereza, higo negro, algarroba, canela y salsa de ciruela junto con sutiles notas de pimienta verde, chocolate y polvo de grava triturada. En el paladar, los vinos Amarone a menudo tienen una acidez entre media y alta equilibrada con un alto contenido de alcohol y sabores de cereza negra, azúcar moreno y chocolate.";
+"wr.barbera.description" = "Barbera es la tercera variedad de uva tinta más plantada en Italia (después de Sangiovese y Montepulciano). Barbera es conocido por su color profundo, cuerpo completo, taninos bajos y altos niveles de acidez.";
+"wr.cabernetfranc.description" = "Cabernet Franc es la uva madre tanto de Merlot como de Cabernet Sauvignon. Resultan tintos complejos, con aromas de frambuesa, zarzamora y pimiento morrón.";
+"wr.cabernetsauvignon.description" = "La uva de vino tinto más popular del mundo es un cruce natural entre Cabernet Franc y Sauvignon Blanc de Burdeos, Francia. Cabernet Sauvignon es amado por su alta concentración y valor de edad.";
+"wr.carmenere.description" = "Los sabores herbáceos similares a los granos de pimienta del Carmenere son un gran adorno para las carnes asadas (desde el pollo hasta la carne de res) y los sabrosos platos especiados con comino";
+"wr.champangeblend.description" = "El vino espumoso más icónico del mundo es una mezcla de uvas que incluyen Chardonnay, Pinot Noir y Pinot Meunier. Los vinos de champán a menudo exhiben sabores a almendras, con notas sutiles de ralladura de naranja y cereza blanca. Los vinos de champán más preciados envejecen durante un mínimo de tres años.";
+"wr.chardonnay.description" = "Una de las uvas más populares del mundo, Chardonnay se elabora en una amplia gama de estilos, desde Blanc de Blancs magro y espumoso hasta vinos blancos ricos y cremosos envejecidos en roble.";
+"wr.cheninblanc.description" = "Chenin Blanc se cultiva en todo el mundo, sobre todo en el Valle del Loira de Francia y Sudáfrica. Lo sorprendente de esta variedad es la diversidad de estilos, desde vinos espumosos y blancos magros y secos hasta néctares dulces y dorados y brandy.";
+"wr.gamay.description" = "Un tinto de cuerpo ligero afrutado, floral ya veces terroso que es la principal variedad plantada en Beaujolais. Fuera de Francia, Gamay tiene un seguimiento pequeño pero devoto.";
+"wr.gewurztraminer.description" = "Atesorado por sus intensos aromas florales, el Gewürztraminer ha prosperado durante siglos en toda Alemania. Los ejemplares de calidad son dignos de su edad, pero la mayoría se disfrutan mejor en su juventud para preservar la acidez.";
+"wr.grenache.description" = "La garnacha (también conocida como garnacha) produce vinos tintos ricos y sabrosos y un rosado intenso de color rubí. Los franceses han defendido esta uva en el sur del valle del Ródano, pero su hogar original es España.";
+"wr.grunerveltliner.description" = "El vino más importante de Austria se produce en una miríada de estilos, los más populares son los vinos magros, herbáceos y especiados con una acidez deliciosa.";
+"wr.malbec.description" = "La variedad más importante de Argentina llegó a través de Francia, donde comúnmente se le llama Côt. Los vinos son amados por sus ricos sabores a frutas oscuras y su suave final achocolatado.";
+"wr.merlot.description" = "Merlot es amado por sus bulliciosos sabores a cereza negra, taninos suaves y final achocolatado. En el extremo superior, a menudo se confunde con Cabernet Sauvignon y comúnmente se mezcla con él.";
+"wr.nebbiolo.description" = "Una de las variedades de vino tinto más importantes de Italia, famosa por la región de Barolo en el Piamonte, donde los vinos ofrecen aromas delicados acompañados de taninos fuertes.";
+"wr.petitesirah.description" = "Petit Sirah es amado por sus vinos de colores profundos con ricos sabores de frutas negras y taninos audaces. La uva relacionada con Syrah y la rara uva francesa, Peloursin. A pesar de su popularidad, Petite Sirah es una uva excepcionalmente rara con menos de diez mil acres plantados en todo el mundo, que crece principalmente en California.";
+"wr.pinotgris.description" = "Pinot Gris (también conocido como Pinot Grigio) es una mutación de uva rosada de Pinot Noir. Es famoso por sus vinos blancos sabrosos, pero también se puede usar para rosados. Busque ejemplos de referencia en el norte de Italia, Oregón y Alsacia.";
+"wr.pinotnoir.description" = "Pinot Noir es el vino tinto de cuerpo ligero más popular del mundo. Es amado por sus aromas a frutas rojas, flores y especias que se acentúan con un final largo y suave.";
+"wr.port.description" = "Buque insignia de Portugal; un vino fortificado dulce, envejecido que viene en una amplia gama de estilos, en gran medida basados en técnicas de envejecimiento. Los estilos comúnmente vistos incluyen rubí y leonado. El nombre más reconocible entre los vinos de postre.";
+"wr.redblend.description" = "Una mezcla se define como un vino que no se elabora a partir de una variedad de uva específica. Mezclar vino permite a los enólogos adaptar el sabor del vino. Las mezclas de vino tinto son el segundo vino más comprado por volumen en los Estados Unidos.";
+"wr.riesling.description" = "Una variedad blanca aromática que puede producir vinos blancos que varían en estilo desde secos hasta muy dulces. Alemania es el mayor productor mundial de Riesling.";
+"wr.rose.description" = "El rosado es un estilo de vino rosado elaborado a partir de una mezcla de uvas de vino tinto y blanco. Considerada más dulce, afrutada, seca y mineralizada.";
+"wr.sangiovese.description" = "La variedad de vino más plantada de Italia y el orgullo del vino regional toscano, Chianti. Sangiovese es una uva sensible que adquiere diferentes expresiones estilísticas según el lugar donde crece.";
+"wr.sauvignonblanc.description" = "Un vino blanco popular e inconfundible que es amado por sus sabores herbales 'verdes' y su acidez picante. Sauvignon Blanc crece en casi todas partes y, por lo tanto, ofrece una variedad de estilos que van desde magra hasta generosa.";
+"wr.sparklingblend.description" = "Los vinos espumosos generalmente se crean a partir de una mezcla de uvas de vino blanco y se fermentan para crear carbonatación. Hay muchos perfiles de sabor que se pueden crear dependiendo de la mezcla: seco y picante, afrutado y floral, cremoso y de nuez, dulce y perfumado.";
+"wr.syrah.description" = "Un vino tinto rico, potente y, a veces, carnoso que se originó en el valle del Ródano en Francia. Syrah es la uva más plantada de Australia, donde la llaman Shiraz.";
+"wr.tempranillo.description" = "El mejor vino tinto de España, hecho famoso por Rioja, donde los vinos se clasifican (en parte) por el tiempo que envejecen en roble. Lo sorprendente es que un Tempranillo bien hecho envejece durante más de veinte años.";
+"wr.viognier.description" = "Un vino blanco rico y aceitoso que se originó en el norte del Ródano y está creciendo rápidamente en popularidad en California, Australia y más allá. Los vinos suelen envejecer en roble para ofrecer una riqueza similar a la del Chardonnay.";
+"wr.whiteblend.description" = "Una mezcla se define como un vino que no se elabora a partir de una variedad de uva específica. La mezcla de vino permite a los productores de vino adaptar el sabor del vino. La mayoría de las mezclas blancas tendrán notas cítricas y de frutas blancas.";
+"wr.zinfandel.description" = "El vino Zinfandel es un tinto audaz y afrutado que es amado por su mermelada de frutas y notas ahumadas de especias exóticas. También se puede convertir en un rosado dulce llamado White Zinfandel.";

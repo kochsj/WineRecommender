@@ -1,0 +1,276 @@
+/*
+  Localizable.strings
+  WineRecommender
+
+  Created by Stephen Koch on 2/2/22.
+  
+  English (US)
+*/
+
+//Titles
+"wr.title.app" = "Wine Recommender";
+"wr.title.language" = "Language";
+"wr.title.selectyourgrape" = "Select Your Grape";
+"wr.title.savedrecommendations" = "Saved Recommendations";
+
+//Buttons
+"wr.button.getstarted" = "Get Started";
+"wr.button.yes" = "Yes";
+"wr.button.no" = "No";
+"wr.button.select" = "Select";
+
+//View Content
+"wr.view.home.explainationlanguage" = "For the changes to take effect, please manually close and restart the application.";
+
+"wr.view.question.whitered" = "Would you like help deciding between a white wine and a red wine?";
+"wr.view.question.youselected" = "You selected:";
+"wr.view.question.nothing" = "Nothing";
+
+"wr.view.question.limitrecommendation" = "Start by limiting your recommendation to red or white wines.";
+"wr.view.question.redmeat" = "For red meats, we recommend looking at red wines.";
+"wr.view.question.whitemeat" = "For white meats, we recommend looking at white wines.";
+"wr.view.question.seafood" = "For seafood, we recommend looking at white wines.";
+"wr.view.question.other" = "For other meals, we recommend both red and white wines.";
+"wr.view.question.defaultfood" = "Please select a grape to be recommended from the options below.";
+
+
+
+//Food
+"wr.food.red" = "Red Meat";
+"wr.food.white" = "White Meat";
+"wr.food.seafood" = "Seafood";
+"wr.food.other" = "Other";
+
+// Varietal Type
+"wr.type.red" = "Red";
+"wr.type.white" = "White";
+"wr.type.redwine" = "Red Wine";
+"wr.type.whitewine" = "White Wine";
+"wr.type.blend" = "Either Red or White Wine";
+
+// Tannins
+"wr.amarone.tannin" = "Medium";
+"wr.barbera.tannin" = "Low";
+"wr.cabernetfranc.tannin" = "Medium-High";
+"wr.cabernetsauvignon.tannin" = "Dense, dark, tannic";
+"wr.carmenere.tannin" = "Medium";
+"wr.champangeblend.tannin" = "None";
+"wr.chardonnay.tannin" = "Low";
+"wr.cheninblanc.tannin" = "None";
+"wr.gamay.tannin" = "Low to None";
+"wr.gewurztraminer.tannin" = "None";
+"wr.grenache.tannin" = "Medium";
+"wr.grunerveltliner.tannin" = "None";
+"wr.malbec.tannin" = "Medium";
+"wr.merlot.tannin" = "Medium";
+"wr.nebbiolo.tannin" = "High";
+"wr.petitesirah.tannin" = "High";
+"wr.pinotgris.tannin" = "None";
+"wr.pinotnoir.tannin" = "Light tannins";
+"wr.port.tannin" = "High";
+"wr.redblend.tannin" = "Wide range, medium to high";
+"wr.riesling.tannin" = "None";
+"wr.rose.tannin" = "Light";
+"wr.sangiovese.tannin" = "High";
+"wr.sauvignonblanc.tannin" = "Acidic, dry";
+"wr.sparklingblend.tannin" = "None";
+"wr.syrah.tannin" = "High";
+"wr.tempranillo.tannin" = "Medium-high, acidic, complex";
+"wr.viognier.tannin" = "None";
+"wr.whiteblend.tannin" = "Low to unnoticeable ";
+"wr.zinfandel.tannin" = "Medium to Medium-High";
+
+// Grape
+"wr.amarone.grape" = "Blend of three italian grapes: Corvina, Rondinella, Molinara";
+"wr.barbera.grape" = "Italian red grape";
+"wr.cabernetfranc.grape" = "Blue-black grape, parent to Merlot and Cabernet Sayvignon";
+"wr.cabernetsauvignon.grape" = "Small, spherical, black, thick skin";
+"wr.carmenere.grape" = "Cabernet red wine grape";
+"wr.champangeblend.grape" = "Blend of white wine grapes. Chardonnay, Pinot Noir, Pinot Meunier";
+"wr.chardonnay.grape" = "Green-skinned, sturdy";
+"wr.cheninblanc.grape" = "White-gold grape";
+"wr.gamay.grape" = "Small, round, purple grape";
+"wr.gewurztraminer.grape" = "Rose colored grape";
+"wr.grenache.grape" = "Dark purple grape";
+"wr.grunerveltliner.grape" = "Deep-green grape";
+"wr.malbec.grape" = "Purple grape with thin skin";
+"wr.merlot.grape" = "Dark blue-colored grape";
+"wr.nebbiolo.grape" = "Large, purple grape, thick skin";
+"wr.petitesirah.grape" = "Dark-skinned grape";
+"wr.pinotgris.grape" = "Grayish-blue color (Gris)";
+"wr.pinotnoir.grape" = "Red-skinned grape";
+"wr.port.grape" = "Blend of Portugese red grapes.";
+"wr.redblend.grape" = "Blends of red wine grapes";
+"wr.riesling.grape" = "Green-skinned";
+"wr.rose.grape" = "Many grape types, pink color";
+"wr.sangiovese.grape" = "Small, spherical, dark purple skin";
+"wr.sauvignonblanc.grape" = "Green grape, thin skin";
+"wr.sparklingblend.grape" = "Blends of white wine grapes";
+"wr.syrah.grape" = "Dark-skinned grape";
+"wr.tempranillo.grape" = "Violet-blue grape";
+"wr.viognier.grape" = "Green grape";
+"wr.whiteblend.grape" = "Blends of white wine grapes";
+"wr.zinfandel.grape" = "Black-skinned wine grape";
+
+// Region
+"wr.amarone.region" = "Italy";
+"wr.barbera.region" = "Montferrat (Italy), California, Australia, Argentina";
+"wr.cabernetfranc.region" = "Bordeaux, Loire, Canada";
+"wr.cabernetsauvignon.region" = "Bordeaux, Tuscany, Santa Cruz Mountains, Napa Valley, Sonoma County, Australia, Margaret River, South Africa, Friuli, British Columbia, Canada";
+"wr.carmenere.region" = "Chile, Italy, Washington, California, North Carolina";
+"wr.champangeblend.region" = "Champagne Region, France";
+"wr.chardonnay.region" = "Australia, Italy, California, New Zealand, worldwide";
+"wr.cheninblanc.region" = "Loire Valley, France, South Africa";
+"wr.gamay.region" = "Beaujolais, Loire Valley, Niagara Peninsula, Willamette Valley";
+"wr.gewurztraminer.region" = "Alsace, Germany, Northeast Italy, New Zealand, Switzerland, USA, Canada, Southern Australia";
+"wr.grenache.region" = "Aragon, Alella, Priorat, Roussillon, Rhône, Sardinia, Rioja";
+"wr.grunerveltliner.region" = "Lower Austria, Burgenland, Slovakia, Moravia";
+"wr.malbec.region" = "Cahors, Argentina, Chile";
+"wr.merlot.region" = "Bordeaux, Long Island, Sonoma County, Chilean Central Valley, Napa Valley, Romania, Australia, Hungary";
+"wr.nebbiolo.region" = "Piedmont, Italy";
+"wr.petitesirah.region" = "Australia, California, France, Israel";
+"wr.pinotgris.region" = "Italy, California, Oregon, and Germany";
+"wr.pinotnoir.region" = "Burgundy, Santa Cruz Mountains, Russian River Valley, Willamette Valley, Marlborough, Martinbourough, Australia, Romania";
+"wr.port.region" = "Douro River Valley , Portugal";
+"wr.redblend.region" = "California";
+"wr.riesling.region" = "Germany, California, Alsace (France), Finger Lakes (NY), Washington State, Australia/New Zealand";
+"wr.rose.region" = "Rhone Valley, Tavel, Provence, Navarra, Australia, California";
+"wr.sangiovese.region" = "Italy, Tuscany, Washington State";
+"wr.sauvignonblanc.region" = "South Africa, Chile, New Zealand, California, Iran, Loire Valley, Bordeaux, Ukraine";
+"wr.sparklingblend.region" = "Sonoma, Champagne, Germany, Austria";
+"wr.syrah.region" = "France, Australia, South America, California";
+"wr.tempranillo.region" = "Spain, Portugal, Rioja";
+"wr.viognier.region" = "Croatia, France, Rhone Valley";
+"wr.whiteblend.region" = "Worldwide";
+"wr.zinfandel.region" = "California, US and Puglia, Italy";
+
+// Climate (Cool)
+"wr.amarone.cool" = "Blend - Varies.";
+"wr.barbera.cool" = "Fresh red berries, cherry, strawberry";
+"wr.cabernetfranc.cool" = "Acidic, light body, strawberry";
+"wr.cabernetsauvignon.cool" = "Vegetal, bell pepper, asparagus";
+"wr.carmenere.cool" = "Raspberry, bell pepper, mild acidity";
+"wr.champangeblend.cool" = "Varies.";
+"wr.chardonnay.cool" = "Lean, crisp, high acidity";
+"wr.cheninblanc.cool" = "High acidity, sparkling wine, quince, yellow apple";
+"wr.gamay.cool" = "Bright, acid, strawberry, pomegranate";
+"wr.gewurztraminer.cool" = "Strong aromatics, rose, passion fruit, lychee";
+"wr.grenache.cool" = "Raspberry, blood orange, dried herbs";
+"wr.grunerveltliner.cool" = "Pure, minerality, grushed gravel";
+"wr.malbec.cool" = "Sweeter, black cherry, raspberry";
+"wr.merlot.cool" = "Strawberry, red berry, plum, cedar, tobacco";
+"wr.nebbiolo.cool" = "Acidic, clay, mineral";
+"wr.petitesirah.cool" = "Blueberry, black tea";
+"wr.pinotgris.cool" = "Acidity, slight sweetness, apple";
+"wr.pinotnoir.cool" = "Cabbage, wet leaves";
+"wr.port.cool" = "Varies.";
+"wr.redblend.cool" = "Acidity, tart, lighter body";
+"wr.riesling.cool" = "Acidic, apple, tree fruit";
+"wr.rose.cool" = "Mint, grapefruit, strawberry";
+"wr.sangiovese.cool" = "High acidity, under ripened";
+"wr.sauvignonblanc.cool" = "Passion fruit, grapefruit, lime";
+"wr.sparklingblend.cool" = "Dry, lean, zesty";
+"wr.syrah.cool" = "Red berries, high acidity, blackberry";
+"wr.tempranillo.cool" = "plum, tobacco, vanilla";
+"wr.viognier.cool" = "Under ripe, acidity, lime";
+"wr.whiteblend.cool" = "Acidity, tart, lighter body";
+"wr.zinfandel.cool" = "Red berry fruit, raspberry, strawberry";
+
+// Climate (Moderate)
+"wr.amarone.moderate" = "";
+"wr.barbera.moderate" = "Blueberry, dried herbs, black cherry";
+"wr.cabernetfranc.moderate" = "raspberry, cassis, bell pepper";
+"wr.cabernetsauvignon.moderate" = "Tobacco, black pepper, eucalyptus";
+"wr.carmenere.moderate" = "Bell pepper, paprika, vanilla";
+"wr.champangeblend.moderate" = "Toast, almond, cream, yellow apple, citrus";
+"wr.chardonnay.moderate" = "Honey, tropical fruit";
+"wr.cheninblanc.moderate" = "Ripe, aromatic, chamomile, honey, pear";
+"wr.gamay.moderate" = "Blackberry, peony, violet";
+"wr.gewurztraminer.moderate" = "Grapefruit, tangerine, ginger";
+"wr.grenache.moderate" = "Stewed strawberry, dried herbs, white pepper";
+"wr.grunerveltliner.moderate" = "Citrus, peach, white pepper";
+"wr.malbec.moderate" = "Vanilla, sweet tobacco, cocoa";
+"wr.merlot.moderate" = "Blackberry, black plum, black cherry";
+"wr.nebbiolo.moderate" = "Spicy, rose, leather";
+"wr.petitesirah.moderate" = "Spicy, sugarplum";
+"wr.pinotgris.moderate" = "Pear, melon, lemon";
+"wr.pinotnoir.moderate" = "Strawberry, raspberry, cherry, mushroom, meaty";
+"wr.port.moderate" = "Plum, cherry, chocolate, raisin, cinnamon";
+"wr.redblend.moderate" = "Spicy";
+"wr.riesling.moderate" = "Beeswax, jasmine, pear";
+"wr.rose.moderate" = "Raspberry, hibiscus, white pepper";
+"wr.sangiovese.moderate" = "Tart cherry, strawberry, red plum";
+"wr.sauvignonblanc.moderate" = "Dates, papaya, melon";
+"wr.sparklingblend.moderate" = "Light, dry, fruity, floral";
+"wr.syrah.moderate" = "Mint, eucalyptus, smoked meat, black pepper";
+"wr.tempranillo.moderate" = "berries, herb";
+"wr.viognier.moderate" = "Aromatic, rose, peach, honeysuckle";
+"wr.whiteblend.moderate" = "Spicy, lemongrass, chamomile";
+"wr.zinfandel.moderate" = "Black cherry, sweet tobacco, cinnamon";
+
+// Climate (Hot)
+"wr.amarone.hot" = "Blend - Varies.";
+"wr.barbera.hot" = "Licorice, blackberry, black pepper";
+"wr.cabernetfranc.hot" = "Chili pepper, tobacco, crushed gravel";
+"wr.cabernetsauvignon.hot" = "Jam, dark fruit, blackberry, black cherry";
+"wr.carmenere.hot" = "Black plum, vanilla, jammy";
+"wr.champangeblend.hot" = "Varies.";
+"wr.chardonnay.hot" = "Apple, pear, ripe";
+"wr.cheninblanc.hot" = "Over ripe, orange marmalade, ginger, saffron";
+"wr.gamay.hot" = "Black cherry, black pepper, stone, chalk";
+"wr.gewurztraminer.hot" = "Does not perform well in warm climate";
+"wr.grenache.hot" = "Plum, leather, full body";
+"wr.grunerveltliner.hot" = "Tobacco, starfruit, asparagus";
+"wr.malbec.hot" = "Dark fruit, blackberry, plum";
+"wr.merlot.hot" = "Fruitcake, chocolate";
+"wr.nebbiolo.hot" = "Black cherry, anise, leather";
+"wr.petitesirah.hot" = "Dark chocolate, black pepper, leather";
+"wr.pinotgris.hot" = "Rich, floral, almond, peach";
+"wr.pinotnoir.hot" = "Over ripe";
+"wr.port.hot" = "Varies.";
+"wr.redblend.hot" = "Ripe fruit, jammy";
+"wr.riesling.hot" = "Citrus, peach, lime";
+"wr.rose.hot" = "Jam, bell pepper, black pepper";
+"wr.sangiovese.hot" = "Ripe, fig, balsamic, espresso";
+"wr.sauvignonblanc.hot" = "Over ripe";
+"wr.sparklingblend.hot" = "Sweet, perfumed";
+"wr.syrah.hot" = "Liquorice, cloves, espresso, mocha, dark chocolate";
+"wr.tempranillo.hot" = "Leather";
+"wr.viognier.hot" = "Ripe fruit, tangerine, mango";
+"wr.whiteblend.hot" = "Ripe fruit, jammy, grapefruit";
+"wr.zinfandel.hot" = "Blackberry, anise, black plum";
+
+// Varietal Descriptions
+"wr.amarone.description" = "Expect bold aromas of cherry liqueur, black fig, carob, cinnamon, and plum sauce along with subtle notes of green peppercorn, chocolate, and crushed gravel dust. On the palate, Amarone wines often have medium-plus to high acidity balanced with high alcohol and flavors of black cherry, brown sugar, and chocolate.";
+"wr.barbera.description" = "Barbera is the third most-planted red grape variety in Italy (after Sangiovese and Montepulciano). Barbera is known for deep color, full body, low tannins and high levels of acidity.";
+"wr.cabernetfranc.description" = "Cabernet Franc is the parent grape of both Merlot and Cabernet Sauvignon. Complex reds result, with aromas of raspberry, bramble, and bell pepper.";
+"wr.cabernetsauvignon.description" = "The world’s most popular red wine grape is a natural cross between Cabernet Franc and Sauvignon Blanc from Bordeaux, France. Cabernet Sauvignon is loved for its high concentration and age worthiness.";
+"wr.carmenere.description" = "The herbaceous, peppercorn-like flavors in Carmenere are a great embellishment to roast meats (from chicken to beef) and savory cumin-spiced dishes.";
+"wr.champangeblend.description" = "The most iconic sparkling wine in the world is a blend of grapes including Chardonnay, Pinot Noir, and Pinot Meunier. Champagne wines often exhibit almond-like flavors, with subtle notes of orange-zest and white cherry. The most treasured Champagne wines age for a minimum of 3 years.";
+"wr.chardonnay.description" = "One of the world’s most popular grapes, Chardonnay is made in a wide range of styles from lean, sparkling Blanc de Blancs to rich, creamy white wines aged in oak.";
+"wr.cheninblanc.description" = "Chenin Blanc is a grown throughout the world, most notably in the Loire Valley of France and South Africa. What’s amazing about this variety is the diversity of styles, from sparkling wines and lean, dry whites to sweet, golden nectars and brandy.";
+"wr.gamay.description" = "A fruity, floral and sometimes earthy light-bodied red that is the main variety planted in Beaujolais. Outside of France, Gamay has a tiny but devoted following.";
+"wr.gewurztraminer.description" = "Treasured for its intense floral aromas, Gewürztraminer has thrived for centuries around Germany. Quality examples are age worthy, but most are best enjoyed in their youth to preserve acidity.";
+"wr.grenache.description" = "Grenache (aka Garnacha) produces rich, flavorful red wines and deep, ruby-tinted rosé. The French have championed this grape in the Southern Rhône Valley but it’s original home is Spain.";
+"wr.grunerveltliner.description" = "Austria’s most important wine is produced in a myriad of styles, the most popular of which are lean, herbaceous, and peppery wines with mouth-watering acidity.";
+"wr.malbec.description" = "Argentina’s most important variety came by way of France, where it’s commonly called Côt (sounds like “coat”). Wines are loved for their rich, dark fruit flavors and smooth chocolatey finish.";
+"wr.merlot.description" = "Merlot is loved for it’s boisterous black cherry flavors, supple tannins, and chocolatey finish. On the high end, it’s often mistaken with Cabernet Sauvignon and commonly blended with it.";
+"wr.nebbiolo.description" = "One of Italy’s most important red wine varieties made famous by the Barolo region of Piedmont where wines offer delicate aromas accompanied by strong tannins.";
+"wr.petitesirah.description" = "Petit Sirah is loved for its deeply colored wines with rich black fruit flavors and bold tannins. The grape related to Syrah and the rare French grape, Peloursin. Despite its popularity, Petite Sirah is an exceptionally rare grape with less than 10,000 planted acres worldwide, growing mainly in California.";
+"wr.pinotgris.description" = "Pinot Gris (aka Pinot Grigio) is a pinkish grape mutation of Pinot Noir. It’s famously known for zesty white wines, but can also be used for rosé. Look to Northern Italy, Oregon, and Alsace for benchmark examples.";
+"wr.pinotnoir.description" = "Pinot Noir is the world’s most popular light-bodied red wine. It’s loved for its red fruit, flower, and spice aromas that are accentuated by a long, smooth finish.";
+"wr.port.description" = "Portugal’s flagship; an aged, sweet fortified wine that comes in a wide range of styles, largely based on ageing techniques. Commonly seen styles include Ruby and Tawny. The most recognizable name in dessert wines.";
+"wr.redblend.description" = "A blend is defined as a wine that is not made from one specific grape variety. Blending wine allows wine makers to tailor the wine's flavor. Red wine blends are the second most purchased wine by volume in the USA.";
+"wr.riesling.description" = "An aromatic white variety that can produce white wines ranging in style from bone-dry to very sweet. Germany is the world’s most important producer of Riesling.";
+"wr.rose.description" = "Rosé is a pink style of wine made from a blend of red and white wine grapes. Considered sweeter, fruity, dry, and mineral driven.";
+"wr.sangiovese.description" = "Italy’s most planted wine variety and the pride of the Tuscan regional wine, Chianti. Sangiovese is a sensitive grape that takes on different stylistic expressions based on where it grows.";
+"wr.sauvignonblanc.description" = "A popular and unmistakable white wine that’s loved for its “green” herbal flavors and racy acidity. Sauvignon Blanc grows nearly everywhere and thus, offers a variety of styles ranging from lean to bountiful.";
+"wr.sparklingblend.description" = "Sparkling wines are generally created from a blend of white wine grapes and go through fermentation to create carbonation. There are many flavor profiles that can be created depending on the blend: Dry & Zesty, Fruity & Floral, Creamy & Nutty, Sweet & Perfumed.";
+"wr.syrah.description" = "A rich, powerful, and sometimes meaty red wine that originated in the Rhône Valley of France. Syrah is the most planted grape of Australia, where they call it Shiraz.";
+"wr.tempranillo.description" = "Spain’s top red wine, made famous by Rioja, where wines are classified (in part) by how long they age in oak. What’s amazing, is a well-made Tempranillo ages for over 20 years.";
+"wr.viognier.description" = "A rich, oily white wine that originated in the Northern Rhône and is rapidly growing in popularity in California, Australia, and beyond. Wines are often age in oak to deliver Chardonnay-like richness.";
+"wr.whiteblend.description" = "A blend is defined as a wine that is not made from one specific grape variety. Blending wine allows wine makers to tailor the wine's flavor. Most white blends will have notes of citrus and white fruit.";
+"wr.zinfandel.description" = "Zinfandel wine is a bold, fruit forward red that’s loved for its jammy fruit and smoky, exotic spice notes. It can also be made into a sweet rosé called White Zinfandel.";
+
+
+// Varietal

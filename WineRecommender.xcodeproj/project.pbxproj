@@ -7,13 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03DF62FC4584CC5C3D1962DF /* Pods_WineRecommender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27CD7A1A3BC30D4C41C1C53C /* Pods_WineRecommender.framework */; };
+		C7577B830F7E6D259A310C47 /* Pods_WineRecommender_WineRecommenderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040BAD1C3047D716AB01AA52 /* Pods_WineRecommender_WineRecommenderUITests.framework */; };
+		C77C5102C19C4ACDE786FE24 /* Pods_WineRecommenderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AEE7A0BCB610BD4B9824183 /* Pods_WineRecommenderTests.framework */; };
+		DC42C4D428078E73003AA7E1 /* RenderToolbarBeforeHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC42C4D328078E73003AA7E1 /* RenderToolbarBeforeHomeView.swift */; };
+		DC5393B527FE5912000F6D1F /* LocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5393B427FE5912000F6D1F /* LocalizationTests.swift */; };
+		DCA80682280A534500154373 /* DeletePopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA80681280A534500154373 /* DeletePopupView.swift */; };
+		DCD9C2432800E25C004D5AA2 /* WrappingHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9C2422800E25C004D5AA2 /* WrappingHStack.swift */; };
+		DCD9C2452801028E004D5AA2 /* ProfileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9C2442801028E004D5AA2 /* ProfileButton.swift */; };
+		DCDF89AA27FD04C20058A680 /* VectorizationDictionary.json in Resources */ = {isa = PBXBuildFile; fileRef = DCDF89A927FD04C20058A680 /* VectorizationDictionary.json */; };
+		DCDF89B227FD392F0058A680 /* TextCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF89AB27FD392F0058A680 /* TextCarousel.swift */; };
+		DCDF89B327FD392F0058A680 /* WineImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF89AC27FD392F0058A680 /* WineImage.swift */; };
+		DCDF89B427FD392F0058A680 /* LanguageSelectionPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF89AD27FD392F0058A680 /* LanguageSelectionPopup.swift */; };
+		DCDF89B527FD392F0058A680 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF89AE27FD392F0058A680 /* ViewModifiers.swift */; };
+		DCDF89B627FD392F0058A680 /* RecommendationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF89AF27FD392F0058A680 /* RecommendationCard.swift */; };
+		DCDF89B727FD392F0058A680 /* HomePageLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF89B027FD392F0058A680 /* HomePageLogo.swift */; };
+		DCDF89B827FD392F0058A680 /* WRToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF89B127FD392F0058A680 /* WRToolbar.swift */; };
+		DCDF89C427FD39DB0058A680 /* QuestionInstructionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF89B927FD39DB0058A680 /* QuestionInstructionsView.swift */; };
+		DCDF89C527FD39DB0058A680 /* SavedRecommendationAllView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF89BA27FD39DB0058A680 /* SavedRecommendationAllView.swift */; };
+		DCDF89C627FD39DB0058A680 /* SavedRecommendationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF89BB27FD39DB0058A680 /* SavedRecommendationDetailView.swift */; };
+		DCDF89C727FD39DB0058A680 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF89BC27FD39DB0058A680 /* SettingsView.swift */; };
+		DCDF89CA27FD39DB0058A680 /* QuestionFlavorProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF89BF27FD39DB0058A680 /* QuestionFlavorProfileView.swift */; };
+		DCDF89CB27FD39DB0058A680 /* QuestionWineSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF89C027FD39DB0058A680 /* QuestionWineSelectionView.swift */; };
+		DCDF89CC27FD39DB0058A680 /* QuestionStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF89C127FD39DB0058A680 /* QuestionStartView.swift */; };
+		DCDF89CD27FD39DB0058A680 /* WineDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF89C227FD39DB0058A680 /* WineDetailView.swift */; };
+		DCDF89CE27FD39DB0058A680 /* UserLanding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF89C327FD39DB0058A680 /* UserLanding.swift */; };
+		DCDF89D227FD3C890058A680 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF89D127FD3C890058A680 /* StringExtension.swift */; };
+		DCDF89D527FD3CBC0058A680 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCDF89D727FD3CBC0058A680 /* Localizable.strings */; };
+		DCDF89E327FD3ED00058A680 /* Varietal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF89E027FD3ED00058A680 /* Varietal.swift */; };
+		DCDF89E427FD3ED00058A680 /* PersistentStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF89E127FD3ED00058A680 /* PersistentStorageManager.swift */; };
+		DCDF8A4127FD3FF80058A680 /* CabernetSauvignon.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF8A2327FD3FF70058A680 /* CabernetSauvignon.swift */; };
+		DCDF8A4227FD3FF80058A680 /* ChenninBlanc.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF8A2427FD3FF70058A680 /* ChenninBlanc.swift */; };
+		DCDF8A4327FD3FF80058A680 /* Zinfandel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF8A2527FD3FF70058A680 /* Zinfandel.swift */; };
+		DCDF8A4427FD3FF80058A680 /* PetiteSirah.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF8A2627FD3FF70058A680 /* PetiteSirah.swift */; };
+		DCDF8A4527FD3FF80058A680 /* Malbec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF8A2727FD3FF70058A680 /* Malbec.swift */; };
+		DCDF8A4627FD3FF80058A680 /* Carmenere.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF8A2827FD3FF70058A680 /* Carmenere.swift */; };
+		DCDF8A4727FD3FF80058A680 /* Barbera.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF8A2927FD3FF70058A680 /* Barbera.swift */; };
+		DCDF8A4827FD3FF80058A680 /* CabernetFranc.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF8A2A27FD3FF70058A680 /* CabernetFranc.swift */; };
+		DCDF8A4927FD3FF80058A680 /* Sangiovese.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF8A2B27FD3FF70058A680 /* Sangiovese.swift */; };
+		DCDF8A4A27FD3FF80058A680 /* PinotNoir.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF8A2C27FD3FF70058A680 /* PinotNoir.swift */; };
+		DCDF8A4B27FD3FF80058A680 /* Rose.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF8A2D27FD3FF70058A680 /* Rose.swift */; };
+		DCDF8A4C27FD3FF80058A680 /* Tempranillo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF8A2E27FD3FF70058A680 /* Tempranillo.swift */; };
+		DCDF8A4D27FD3FF80058A680 /* Grenache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF8A2F27FD3FF70058A680 /* Grenache.swift */; };
+		DCDF8A4E27FD3FF80058A680 /* PinotGris.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF8A3027FD3FF80058A680 /* PinotGris.swift */; };
+		DCDF8A4F27FD3FF80058A680 /* Viognier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF8A3127FD3FF80058A680 /* Viognier.swift */; };
+		DCDF8A5027FD3FF80058A680 /* Syrah.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF8A3227FD3FF80058A680 /* Syrah.swift */; };
+		DCDF8A5127FD3FF80058A680 /* Riesling.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF8A3327FD3FF80058A680 /* Riesling.swift */; };
+		DCDF8A5227FD3FF80058A680 /* Chardonnay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF8A3427FD3FF80058A680 /* Chardonnay.swift */; };
+		DCDF8A5327FD3FF80058A680 /* GrunerVeltliner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF8A3527FD3FF80058A680 /* GrunerVeltliner.swift */; };
+		DCDF8A5427FD3FF80058A680 /* SparklingBlend.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF8A3627FD3FF80058A680 /* SparklingBlend.swift */; };
+		DCDF8A5527FD3FF80058A680 /* Port.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF8A3727FD3FF80058A680 /* Port.swift */; };
+		DCDF8A5627FD3FF80058A680 /* ChampagneBlend.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF8A3827FD3FF80058A680 /* ChampagneBlend.swift */; };
+		DCDF8A5727FD3FF80058A680 /* SauvignonBlanc.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF8A3927FD3FF80058A680 /* SauvignonBlanc.swift */; };
+		DCDF8A5827FD3FF80058A680 /* WhiteBlend.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF8A3A27FD3FF80058A680 /* WhiteBlend.swift */; };
+		DCDF8A5927FD3FF80058A680 /* Gewurztraminer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF8A3B27FD3FF80058A680 /* Gewurztraminer.swift */; };
+		DCDF8A5A27FD3FF80058A680 /* Amarone.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF8A3C27FD3FF80058A680 /* Amarone.swift */; };
+		DCDF8A5B27FD3FF80058A680 /* Merlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF8A3D27FD3FF80058A680 /* Merlot.swift */; };
+		DCDF8A5C27FD3FF80058A680 /* Gamay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF8A3E27FD3FF80058A680 /* Gamay.swift */; };
+		DCDF8A5D27FD3FF80058A680 /* RedBlend.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF8A3F27FD3FF80058A680 /* RedBlend.swift */; };
+		DCDF8A5E27FD3FF80058A680 /* Nebbiolo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF8A4027FD3FF80058A680 /* Nebbiolo.swift */; };
+		DCEF570F27FCB6CD00ED2308 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCEF570E27FCB6CD00ED2308 /* GoogleService-Info.plist */; };
+		DCEF571127FCB91400ED2308 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEF571027FCB91400ED2308 /* User.swift */; };
+		DCEF571327FCB94F00ED2308 /* Recommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEF571227FCB94F00ED2308 /* Recommendation.swift */; };
+		DCEF571727FCB9EF00ED2308 /* ThemeTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEF571627FCB9EF00ED2308 /* ThemeTitle.swift */; };
+		DCEF571927FCBA5300ED2308 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEF571827FCBA5300ED2308 /* HomeView.swift */; };
 		DCF54CD227FCAB61008430E7 /* WineRecommenderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF54CD127FCAB61008430E7 /* WineRecommenderApp.swift */; };
-		DCF54CD427FCAB61008430E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF54CD327FCAB61008430E7 /* ContentView.swift */; };
 		DCF54CD627FCAB65008430E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCF54CD527FCAB65008430E7 /* Assets.xcassets */; };
 		DCF54CD927FCAB65008430E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCF54CD827FCAB65008430E7 /* Preview Assets.xcassets */; };
 		DCF54CE327FCAB65008430E7 /* WineRecommenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF54CE227FCAB65008430E7 /* WineRecommenderTests.swift */; };
 		DCF54CED27FCAB66008430E7 /* WineRecommenderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF54CEC27FCAB66008430E7 /* WineRecommenderUITests.swift */; };
 		DCF54CEF27FCAB66008430E7 /* WineRecommenderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF54CEE27FCAB66008430E7 /* WineRecommenderUITestsLaunchTests.swift */; };
+		DCF54CFC27FCABB0008430E7 /* ApplicationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF54CFB27FCABB0008430E7 /* ApplicationDelegate.swift */; };
+		DCF54CFF27FCAEE5008430E7 /* FirebaseModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF54CFE27FCAEE5008430E7 /* FirebaseModelManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +99,86 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040BAD1C3047D716AB01AA52 /* Pods_WineRecommender_WineRecommenderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WineRecommender_WineRecommenderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AEE7A0BCB610BD4B9824183 /* Pods_WineRecommenderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WineRecommenderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D22B851BC4EC15D04ED5639 /* Pods-WineRecommender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WineRecommender.debug.xcconfig"; path = "Target Support Files/Pods-WineRecommender/Pods-WineRecommender.debug.xcconfig"; sourceTree = "<group>"; };
+		2119652D02524DED44CC76A1 /* Pods-WineRecommender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WineRecommender.release.xcconfig"; path = "Target Support Files/Pods-WineRecommender/Pods-WineRecommender.release.xcconfig"; sourceTree = "<group>"; };
+		27CD7A1A3BC30D4C41C1C53C /* Pods_WineRecommender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WineRecommender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5A7DC0F70C1F476886DCAA /* Pods-WineRecommenderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WineRecommenderTests.debug.xcconfig"; path = "Target Support Files/Pods-WineRecommenderTests/Pods-WineRecommenderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC42C4D328078E73003AA7E1 /* RenderToolbarBeforeHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderToolbarBeforeHomeView.swift; sourceTree = "<group>"; };
+		DC5393B327FE2E32000F6D1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DC5393B427FE5912000F6D1F /* LocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationTests.swift; sourceTree = "<group>"; };
+		DC5393B627FE594B000F6D1F /* UnitTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = UnitTestPlan.xctestplan; sourceTree = "<group>"; };
+		DC5393B727FE5987000F6D1F /* (en)LocalizationTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "(en)LocalizationTestPlan.xctestplan"; sourceTree = "<group>"; };
+		DC5393B827FE5993000F6D1F /* (es)LocalizationTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "(es)LocalizationTestPlan.xctestplan"; sourceTree = "<group>"; };
+		DC5393B927FE59A6000F6D1F /* (ru)LocalizationTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "(ru)LocalizationTestPlan.xctestplan"; sourceTree = "<group>"; };
+		DC5393BA27FE59B3000F6D1F /* (de)LocalizationTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "(de)LocalizationTestPlan.xctestplan"; sourceTree = "<group>"; };
+		DC5393BB27FE59BF000F6D1F /* (fr)LocalizationTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "(fr)LocalizationTestPlan.xctestplan"; sourceTree = "<group>"; };
+		DCA80681280A534500154373 /* DeletePopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletePopupView.swift; sourceTree = "<group>"; };
+		DCD9C2422800E25C004D5AA2 /* WrappingHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappingHStack.swift; sourceTree = "<group>"; };
+		DCD9C2442801028E004D5AA2 /* ProfileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileButton.swift; sourceTree = "<group>"; };
+		DCDF89A927FD04C20058A680 /* VectorizationDictionary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = VectorizationDictionary.json; sourceTree = SOURCE_ROOT; };
+		DCDF89AB27FD392F0058A680 /* TextCarousel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextCarousel.swift; sourceTree = "<group>"; };
+		DCDF89AC27FD392F0058A680 /* WineImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineImage.swift; sourceTree = "<group>"; };
+		DCDF89AD27FD392F0058A680 /* LanguageSelectionPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageSelectionPopup.swift; sourceTree = "<group>"; };
+		DCDF89AE27FD392F0058A680 /* ViewModifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		DCDF89AF27FD392F0058A680 /* RecommendationCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendationCard.swift; sourceTree = "<group>"; };
+		DCDF89B027FD392F0058A680 /* HomePageLogo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageLogo.swift; sourceTree = "<group>"; };
+		DCDF89B127FD392F0058A680 /* WRToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRToolbar.swift; sourceTree = "<group>"; };
+		DCDF89B927FD39DB0058A680 /* QuestionInstructionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionInstructionsView.swift; sourceTree = "<group>"; };
+		DCDF89BA27FD39DB0058A680 /* SavedRecommendationAllView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedRecommendationAllView.swift; sourceTree = "<group>"; };
+		DCDF89BB27FD39DB0058A680 /* SavedRecommendationDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedRecommendationDetailView.swift; sourceTree = "<group>"; };
+		DCDF89BC27FD39DB0058A680 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		DCDF89BF27FD39DB0058A680 /* QuestionFlavorProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionFlavorProfileView.swift; sourceTree = "<group>"; };
+		DCDF89C027FD39DB0058A680 /* QuestionWineSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionWineSelectionView.swift; sourceTree = "<group>"; };
+		DCDF89C127FD39DB0058A680 /* QuestionStartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionStartView.swift; sourceTree = "<group>"; };
+		DCDF89C227FD39DB0058A680 /* WineDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineDetailView.swift; sourceTree = "<group>"; };
+		DCDF89C327FD39DB0058A680 /* UserLanding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLanding.swift; sourceTree = "<group>"; };
+		DCDF89D127FD3C890058A680 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		DCDF89D627FD3CBC0058A680 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DCDF89DC27FD3D5F0058A680 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DCDF89DD27FD3D610058A680 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DCDF89DE27FD3D640058A680 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DCDF89DF27FD3D670058A680 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DCDF89E027FD3ED00058A680 /* Varietal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Varietal.swift; sourceTree = "<group>"; };
+		DCDF89E127FD3ED00058A680 /* PersistentStorageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistentStorageManager.swift; sourceTree = "<group>"; };
+		DCDF8A2327FD3FF70058A680 /* CabernetSauvignon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabernetSauvignon.swift; sourceTree = "<group>"; };
+		DCDF8A2427FD3FF70058A680 /* ChenninBlanc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChenninBlanc.swift; sourceTree = "<group>"; };
+		DCDF8A2527FD3FF70058A680 /* Zinfandel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zinfandel.swift; sourceTree = "<group>"; };
+		DCDF8A2627FD3FF70058A680 /* PetiteSirah.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetiteSirah.swift; sourceTree = "<group>"; };
+		DCDF8A2727FD3FF70058A680 /* Malbec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Malbec.swift; sourceTree = "<group>"; };
+		DCDF8A2827FD3FF70058A680 /* Carmenere.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Carmenere.swift; sourceTree = "<group>"; };
+		DCDF8A2927FD3FF70058A680 /* Barbera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Barbera.swift; sourceTree = "<group>"; };
+		DCDF8A2A27FD3FF70058A680 /* CabernetFranc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabernetFranc.swift; sourceTree = "<group>"; };
+		DCDF8A2B27FD3FF70058A680 /* Sangiovese.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sangiovese.swift; sourceTree = "<group>"; };
+		DCDF8A2C27FD3FF70058A680 /* PinotNoir.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinotNoir.swift; sourceTree = "<group>"; };
+		DCDF8A2D27FD3FF70058A680 /* Rose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rose.swift; sourceTree = "<group>"; };
+		DCDF8A2E27FD3FF70058A680 /* Tempranillo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tempranillo.swift; sourceTree = "<group>"; };
+		DCDF8A2F27FD3FF70058A680 /* Grenache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grenache.swift; sourceTree = "<group>"; };
+		DCDF8A3027FD3FF80058A680 /* PinotGris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinotGris.swift; sourceTree = "<group>"; };
+		DCDF8A3127FD3FF80058A680 /* Viognier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Viognier.swift; sourceTree = "<group>"; };
+		DCDF8A3227FD3FF80058A680 /* Syrah.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Syrah.swift; sourceTree = "<group>"; };
+		DCDF8A3327FD3FF80058A680 /* Riesling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Riesling.swift; sourceTree = "<group>"; };
+		DCDF8A3427FD3FF80058A680 /* Chardonnay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chardonnay.swift; sourceTree = "<group>"; };
+		DCDF8A3527FD3FF80058A680 /* GrunerVeltliner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrunerVeltliner.swift; sourceTree = "<group>"; };
+		DCDF8A3627FD3FF80058A680 /* SparklingBlend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparklingBlend.swift; sourceTree = "<group>"; };
+		DCDF8A3727FD3FF80058A680 /* Port.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Port.swift; sourceTree = "<group>"; };
+		DCDF8A3827FD3FF80058A680 /* ChampagneBlend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChampagneBlend.swift; sourceTree = "<group>"; };
+		DCDF8A3927FD3FF80058A680 /* SauvignonBlanc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SauvignonBlanc.swift; sourceTree = "<group>"; };
+		DCDF8A3A27FD3FF80058A680 /* WhiteBlend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteBlend.swift; sourceTree = "<group>"; };
+		DCDF8A3B27FD3FF80058A680 /* Gewurztraminer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gewurztraminer.swift; sourceTree = "<group>"; };
+		DCDF8A3C27FD3FF80058A680 /* Amarone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Amarone.swift; sourceTree = "<group>"; };
+		DCDF8A3D27FD3FF80058A680 /* Merlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Merlot.swift; sourceTree = "<group>"; };
+		DCDF8A3E27FD3FF80058A680 /* Gamay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gamay.swift; sourceTree = "<group>"; };
+		DCDF8A3F27FD3FF80058A680 /* RedBlend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedBlend.swift; sourceTree = "<group>"; };
+		DCDF8A4027FD3FF80058A680 /* Nebbiolo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nebbiolo.swift; sourceTree = "<group>"; };
+		DCEF570E27FCB6CD00ED2308 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DCEF571027FCB91400ED2308 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DCEF571227FCB94F00ED2308 /* Recommendation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recommendation.swift; sourceTree = "<group>"; };
+		DCEF571627FCB9EF00ED2308 /* ThemeTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeTitle.swift; sourceTree = "<group>"; };
+		DCEF571827FCBA5300ED2308 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		DCF54CCE27FCAB61008430E7 /* WineRecommender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WineRecommender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCF54CD127FCAB61008430E7 /* WineRecommenderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineRecommenderApp.swift; sourceTree = "<group>"; };
-		DCF54CD327FCAB61008430E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DCF54CD527FCAB65008430E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCF54CD827FCAB65008430E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DCF54CDE27FCAB65008430E7 /* WineRecommenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WineRecommenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +186,11 @@
 		DCF54CE827FCAB66008430E7 /* WineRecommenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WineRecommenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCF54CEC27FCAB66008430E7 /* WineRecommenderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineRecommenderUITests.swift; sourceTree = "<group>"; };
 		DCF54CEE27FCAB66008430E7 /* WineRecommenderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineRecommenderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DCF54CFB27FCABB0008430E7 /* ApplicationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationDelegate.swift; sourceTree = "<group>"; };
+		DCF54CFE27FCAEE5008430E7 /* FirebaseModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseModelManager.swift; sourceTree = "<group>"; };
+		E5378477483A039C4931731D /* Pods-WineRecommenderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WineRecommenderTests.release.xcconfig"; path = "Target Support Files/Pods-WineRecommenderTests/Pods-WineRecommenderTests.release.xcconfig"; sourceTree = "<group>"; };
+		F317CCB9FA9156091587A2F4 /* Pods-WineRecommender-WineRecommenderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WineRecommender-WineRecommenderUITests.debug.xcconfig"; path = "Target Support Files/Pods-WineRecommender-WineRecommenderUITests/Pods-WineRecommender-WineRecommenderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD45630E39B0BA955BB8C468 /* Pods-WineRecommender-WineRecommenderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WineRecommender-WineRecommenderUITests.release.xcconfig"; path = "Target Support Files/Pods-WineRecommender-WineRecommenderUITests/Pods-WineRecommender-WineRecommenderUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +198,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03DF62FC4584CC5C3D1962DF /* Pods_WineRecommender.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +206,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C77C5102C19C4ACDE786FE24 /* Pods_WineRecommenderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +214,97 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7577B830F7E6D259A310C47 /* Pods_WineRecommender_WineRecommenderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46F488084E95FC48A35F5DE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27CD7A1A3BC30D4C41C1C53C /* Pods_WineRecommender.framework */,
+				040BAD1C3047D716AB01AA52 /* Pods_WineRecommender_WineRecommenderUITests.framework */,
+				0AEE7A0BCB610BD4B9824183 /* Pods_WineRecommenderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCDF89E627FD3F550058A680 /* Varietals */ = {
+			isa = PBXGroup;
+			children = (
+				DCDF8A3C27FD3FF80058A680 /* Amarone.swift */,
+				DCDF8A2927FD3FF70058A680 /* Barbera.swift */,
+				DCDF8A2A27FD3FF70058A680 /* CabernetFranc.swift */,
+				DCDF8A2327FD3FF70058A680 /* CabernetSauvignon.swift */,
+				DCDF8A2827FD3FF70058A680 /* Carmenere.swift */,
+				DCDF8A3827FD3FF80058A680 /* ChampagneBlend.swift */,
+				DCDF8A3427FD3FF80058A680 /* Chardonnay.swift */,
+				DCDF8A2427FD3FF70058A680 /* ChenninBlanc.swift */,
+				DCDF8A3E27FD3FF80058A680 /* Gamay.swift */,
+				DCDF8A3B27FD3FF80058A680 /* Gewurztraminer.swift */,
+				DCDF8A2F27FD3FF70058A680 /* Grenache.swift */,
+				DCDF8A3527FD3FF80058A680 /* GrunerVeltliner.swift */,
+				DCDF8A2727FD3FF70058A680 /* Malbec.swift */,
+				DCDF8A3D27FD3FF80058A680 /* Merlot.swift */,
+				DCDF8A4027FD3FF80058A680 /* Nebbiolo.swift */,
+				DCDF8A2627FD3FF70058A680 /* PetiteSirah.swift */,
+				DCDF8A3027FD3FF80058A680 /* PinotGris.swift */,
+				DCDF8A2C27FD3FF70058A680 /* PinotNoir.swift */,
+				DCDF8A3727FD3FF80058A680 /* Port.swift */,
+				DCDF8A3F27FD3FF80058A680 /* RedBlend.swift */,
+				DCDF8A3327FD3FF80058A680 /* Riesling.swift */,
+				DCDF8A2D27FD3FF70058A680 /* Rose.swift */,
+				DCDF8A2B27FD3FF70058A680 /* Sangiovese.swift */,
+				DCDF8A3927FD3FF80058A680 /* SauvignonBlanc.swift */,
+				DCDF8A3627FD3FF80058A680 /* SparklingBlend.swift */,
+				DCDF8A3227FD3FF80058A680 /* Syrah.swift */,
+				DCDF8A2E27FD3FF70058A680 /* Tempranillo.swift */,
+				DCDF8A3127FD3FF80058A680 /* Viognier.swift */,
+				DCDF8A3A27FD3FF80058A680 /* WhiteBlend.swift */,
+				DCDF8A2527FD3FF70058A680 /* Zinfandel.swift */,
+			);
+			path = Varietals;
+			sourceTree = "<group>";
+		};
+		DCEF571427FCB9B700ED2308 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC42C4D328078E73003AA7E1 /* RenderToolbarBeforeHomeView.swift */,
+				DCEF571827FCBA5300ED2308 /* HomeView.swift */,
+				DCDF89C127FD39DB0058A680 /* QuestionStartView.swift */,
+				DCDF89C027FD39DB0058A680 /* QuestionWineSelectionView.swift */,
+				DCDF89B927FD39DB0058A680 /* QuestionInstructionsView.swift */,
+				DCDF89BF27FD39DB0058A680 /* QuestionFlavorProfileView.swift */,
+				DCDF89BA27FD39DB0058A680 /* SavedRecommendationAllView.swift */,
+				DCDF89BB27FD39DB0058A680 /* SavedRecommendationDetailView.swift */,
+				DCDF89BC27FD39DB0058A680 /* SettingsView.swift */,
+				DCDF89C327FD39DB0058A680 /* UserLanding.swift */,
+				DCDF89C227FD39DB0058A680 /* WineDetailView.swift */,
+				DCEF571527FCB9C500ED2308 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DCEF571527FCB9C500ED2308 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DCDF89B027FD392F0058A680 /* HomePageLogo.swift */,
+				DCDF89AD27FD392F0058A680 /* LanguageSelectionPopup.swift */,
+				DCDF89AF27FD392F0058A680 /* RecommendationCard.swift */,
+				DCDF89AB27FD392F0058A680 /* TextCarousel.swift */,
+				DCDF89AE27FD392F0058A680 /* ViewModifiers.swift */,
+				DCDF89AC27FD392F0058A680 /* WineImage.swift */,
+				DCDF89B127FD392F0058A680 /* WRToolbar.swift */,
+				DCEF571627FCB9EF00ED2308 /* ThemeTitle.swift */,
+				DCD9C2422800E25C004D5AA2 /* WrappingHStack.swift */,
+				DCD9C2442801028E004D5AA2 /* ProfileButton.swift */,
+				DCA80681280A534500154373 /* DeletePopupView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		DCF54CC527FCAB61008430E7 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +312,8 @@
 				DCF54CE127FCAB65008430E7 /* WineRecommenderTests */,
 				DCF54CEB27FCAB66008430E7 /* WineRecommenderUITests */,
 				DCF54CCF27FCAB61008430E7 /* Products */,
+				F90A3C367D8969D7D193110E /* Pods */,
+				46F488084E95FC48A35F5DE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,10 +330,17 @@
 		DCF54CD027FCAB61008430E7 /* WineRecommender */ = {
 			isa = PBXGroup;
 			children = (
+				DC5393B327FE2E32000F6D1F /* Info.plist */,
+				DCEF570E27FCB6CD00ED2308 /* GoogleService-Info.plist */,
+				DCDF89A927FD04C20058A680 /* VectorizationDictionary.json */,
+				DCF54CFB27FCABB0008430E7 /* ApplicationDelegate.swift */,
 				DCF54CD127FCAB61008430E7 /* WineRecommenderApp.swift */,
-				DCF54CD327FCAB61008430E7 /* ContentView.swift */,
+				DCF54CFD27FCAEB7008430E7 /* Models */,
+				DCEF571427FCB9B700ED2308 /* Views */,
 				DCF54CD527FCAB65008430E7 /* Assets.xcassets */,
 				DCF54CD727FCAB65008430E7 /* Preview Content */,
+				DCDF89D127FD3C890058A680 /* StringExtension.swift */,
+				DCDF89D727FD3CBC0058A680 /* Localizable.strings */,
 			);
 			path = WineRecommender;
 			sourceTree = "<group>";
@@ -114,6 +357,13 @@
 			isa = PBXGroup;
 			children = (
 				DCF54CE227FCAB65008430E7 /* WineRecommenderTests.swift */,
+				DC5393B427FE5912000F6D1F /* LocalizationTests.swift */,
+				DC5393B627FE594B000F6D1F /* UnitTestPlan.xctestplan */,
+				DC5393B727FE5987000F6D1F /* (en)LocalizationTestPlan.xctestplan */,
+				DC5393B827FE5993000F6D1F /* (es)LocalizationTestPlan.xctestplan */,
+				DC5393B927FE59A6000F6D1F /* (ru)LocalizationTestPlan.xctestplan */,
+				DC5393BA27FE59B3000F6D1F /* (de)LocalizationTestPlan.xctestplan */,
+				DC5393BB27FE59BF000F6D1F /* (fr)LocalizationTestPlan.xctestplan */,
 			);
 			path = WineRecommenderTests;
 			sourceTree = "<group>";
@@ -127,6 +377,32 @@
 			path = WineRecommenderUITests;
 			sourceTree = "<group>";
 		};
+		DCF54CFD27FCAEB7008430E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DCF54CFE27FCAEE5008430E7 /* FirebaseModelManager.swift */,
+				DCDF89E127FD3ED00058A680 /* PersistentStorageManager.swift */,
+				DCEF571227FCB94F00ED2308 /* Recommendation.swift */,
+				DCEF571027FCB91400ED2308 /* User.swift */,
+				DCDF89E027FD3ED00058A680 /* Varietal.swift */,
+				DCDF89E627FD3F550058A680 /* Varietals */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F90A3C367D8969D7D193110E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D22B851BC4EC15D04ED5639 /* Pods-WineRecommender.debug.xcconfig */,
+				2119652D02524DED44CC76A1 /* Pods-WineRecommender.release.xcconfig */,
+				F317CCB9FA9156091587A2F4 /* Pods-WineRecommender-WineRecommenderUITests.debug.xcconfig */,
+				FD45630E39B0BA955BB8C468 /* Pods-WineRecommender-WineRecommenderUITests.release.xcconfig */,
+				3B5A7DC0F70C1F476886DCAA /* Pods-WineRecommenderTests.debug.xcconfig */,
+				E5378477483A039C4931731D /* Pods-WineRecommenderTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +410,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCF54CF227FCAB66008430E7 /* Build configuration list for PBXNativeTarget "WineRecommender" */;
 			buildPhases = (
+				3FBF962618465C20064BCB32 /* [CP] Check Pods Manifest.lock */,
 				DCF54CCA27FCAB61008430E7 /* Sources */,
 				DCF54CCB27FCAB61008430E7 /* Frameworks */,
 				DCF54CCC27FCAB61008430E7 /* Resources */,
+				22AAE986F237D7BC60F82B21 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +429,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCF54CF527FCAB66008430E7 /* Build configuration list for PBXNativeTarget "WineRecommenderTests" */;
 			buildPhases = (
+				6A877F09F72BE7B478996866 /* [CP] Check Pods Manifest.lock */,
 				DCF54CDA27FCAB65008430E7 /* Sources */,
 				DCF54CDB27FCAB65008430E7 /* Frameworks */,
 				DCF54CDC27FCAB65008430E7 /* Resources */,
@@ -169,9 +448,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCF54CF827FCAB66008430E7 /* Build configuration list for PBXNativeTarget "WineRecommenderUITests" */;
 			buildPhases = (
+				EEB7DC2CEA48A2698C2C2E65 /* [CP] Check Pods Manifest.lock */,
 				DCF54CE427FCAB66008430E7 /* Sources */,
 				DCF54CE527FCAB66008430E7 /* Frameworks */,
 				DCF54CE627FCAB66008430E7 /* Resources */,
+				75E3E2568D0BDE81126B759C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,6 +494,10 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
+				de,
+				ru,
+				es,
 			);
 			mainGroup = DCF54CC527FCAB61008430E7;
 			productRefGroup = DCF54CCF27FCAB61008430E7 /* Products */;
@@ -231,8 +516,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCDF89D527FD3CBC0058A680 /* Localizable.strings in Resources */,
 				DCF54CD927FCAB65008430E7 /* Preview Assets.xcassets in Resources */,
 				DCF54CD627FCAB65008430E7 /* Assets.xcassets in Resources */,
+				DCEF570F27FCB6CD00ED2308 /* GoogleService-Info.plist in Resources */,
+				DCDF89AA27FD04C20058A680 /* VectorizationDictionary.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,13 +540,174 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22AAE986F237D7BC60F82B21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WineRecommender/Pods-WineRecommender-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WineRecommender/Pods-WineRecommender-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WineRecommender/Pods-WineRecommender-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FBF962618465C20064BCB32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WineRecommender-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A877F09F72BE7B478996866 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WineRecommenderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75E3E2568D0BDE81126B759C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WineRecommender-WineRecommenderUITests/Pods-WineRecommender-WineRecommenderUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WineRecommender-WineRecommenderUITests/Pods-WineRecommender-WineRecommenderUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WineRecommender-WineRecommenderUITests/Pods-WineRecommender-WineRecommenderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEB7DC2CEA48A2698C2C2E65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WineRecommender-WineRecommenderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DCF54CCA27FCAB61008430E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCF54CD427FCAB61008430E7 /* ContentView.swift in Sources */,
+				DCDF89B827FD392F0058A680 /* WRToolbar.swift in Sources */,
+				DCDF89B727FD392F0058A680 /* HomePageLogo.swift in Sources */,
+				DCDF89B227FD392F0058A680 /* TextCarousel.swift in Sources */,
+				DCDF8A4927FD3FF80058A680 /* Sangiovese.swift in Sources */,
+				DCDF89C727FD39DB0058A680 /* SettingsView.swift in Sources */,
+				DCDF8A5A27FD3FF80058A680 /* Amarone.swift in Sources */,
+				DCDF8A4727FD3FF80058A680 /* Barbera.swift in Sources */,
+				DCD9C2452801028E004D5AA2 /* ProfileButton.swift in Sources */,
+				DCDF89CB27FD39DB0058A680 /* QuestionWineSelectionView.swift in Sources */,
+				DCDF89C627FD39DB0058A680 /* SavedRecommendationDetailView.swift in Sources */,
+				DCD9C2432800E25C004D5AA2 /* WrappingHStack.swift in Sources */,
+				DCDF8A5927FD3FF80058A680 /* Gewurztraminer.swift in Sources */,
+				DCEF571327FCB94F00ED2308 /* Recommendation.swift in Sources */,
+				DCF54CFC27FCABB0008430E7 /* ApplicationDelegate.swift in Sources */,
+				DCDF89CA27FD39DB0058A680 /* QuestionFlavorProfileView.swift in Sources */,
+				DCDF89CE27FD39DB0058A680 /* UserLanding.swift in Sources */,
+				DCDF89E427FD3ED00058A680 /* PersistentStorageManager.swift in Sources */,
+				DCDF8A5527FD3FF80058A680 /* Port.swift in Sources */,
+				DCF54CFF27FCAEE5008430E7 /* FirebaseModelManager.swift in Sources */,
+				DCDF89B327FD392F0058A680 /* WineImage.swift in Sources */,
+				DCDF89CC27FD39DB0058A680 /* QuestionStartView.swift in Sources */,
+				DCDF8A4427FD3FF80058A680 /* PetiteSirah.swift in Sources */,
+				DCDF8A4B27FD3FF80058A680 /* Rose.swift in Sources */,
+				DCDF8A5C27FD3FF80058A680 /* Gamay.swift in Sources */,
+				DCDF8A4527FD3FF80058A680 /* Malbec.swift in Sources */,
+				DCEF571127FCB91400ED2308 /* User.swift in Sources */,
+				DCEF571927FCBA5300ED2308 /* HomeView.swift in Sources */,
+				DCEF571727FCB9EF00ED2308 /* ThemeTitle.swift in Sources */,
+				DCDF8A4F27FD3FF80058A680 /* Viognier.swift in Sources */,
+				DCDF8A4327FD3FF80058A680 /* Zinfandel.swift in Sources */,
+				DC42C4D428078E73003AA7E1 /* RenderToolbarBeforeHomeView.swift in Sources */,
+				DCDF8A4127FD3FF80058A680 /* CabernetSauvignon.swift in Sources */,
+				DCDF8A4D27FD3FF80058A680 /* Grenache.swift in Sources */,
+				DCDF8A4E27FD3FF80058A680 /* PinotGris.swift in Sources */,
 				DCF54CD227FCAB61008430E7 /* WineRecommenderApp.swift in Sources */,
+				DCDF89CD27FD39DB0058A680 /* WineDetailView.swift in Sources */,
+				DCDF8A5627FD3FF80058A680 /* ChampagneBlend.swift in Sources */,
+				DCDF8A5027FD3FF80058A680 /* Syrah.swift in Sources */,
+				DCDF8A4827FD3FF80058A680 /* CabernetFranc.swift in Sources */,
+				DCDF8A5427FD3FF80058A680 /* SparklingBlend.swift in Sources */,
+				DCDF8A5B27FD3FF80058A680 /* Merlot.swift in Sources */,
+				DCDF8A4C27FD3FF80058A680 /* Tempranillo.swift in Sources */,
+				DCA80682280A534500154373 /* DeletePopupView.swift in Sources */,
+				DCDF89B527FD392F0058A680 /* ViewModifiers.swift in Sources */,
+				DCDF8A4627FD3FF80058A680 /* Carmenere.swift in Sources */,
+				DCDF8A5827FD3FF80058A680 /* WhiteBlend.swift in Sources */,
+				DCDF8A5227FD3FF80058A680 /* Chardonnay.swift in Sources */,
+				DCDF89B627FD392F0058A680 /* RecommendationCard.swift in Sources */,
+				DCDF8A5127FD3FF80058A680 /* Riesling.swift in Sources */,
+				DCDF8A4227FD3FF80058A680 /* ChenninBlanc.swift in Sources */,
+				DCDF89E327FD3ED00058A680 /* Varietal.swift in Sources */,
+				DCDF8A5E27FD3FF80058A680 /* Nebbiolo.swift in Sources */,
+				DCDF89C427FD39DB0058A680 /* QuestionInstructionsView.swift in Sources */,
+				DCDF8A4A27FD3FF80058A680 /* PinotNoir.swift in Sources */,
+				DCDF8A5327FD3FF80058A680 /* GrunerVeltliner.swift in Sources */,
+				DCDF8A5727FD3FF80058A680 /* SauvignonBlanc.swift in Sources */,
+				DCDF8A5D27FD3FF80058A680 /* RedBlend.swift in Sources */,
+				DCDF89C527FD39DB0058A680 /* SavedRecommendationAllView.swift in Sources */,
+				DCDF89D227FD3C890058A680 /* StringExtension.swift in Sources */,
+				DCDF89B427FD392F0058A680 /* LanguageSelectionPopup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +715,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC5393B527FE5912000F6D1F /* LocalizationTests.swift in Sources */,
 				DCF54CE327FCAB65008430E7 /* WineRecommenderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,11 +744,27 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		DCDF89D727FD3CBC0058A680 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCDF89D627FD3CBC0058A680 /* en */,
+				DCDF89DC27FD3D5F0058A680 /* fr */,
+				DCDF89DD27FD3D610058A680 /* de */,
+				DCDF89DE27FD3D640058A680 /* ru */,
+				DCDF89DF27FD3D670058A680 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		DCF54CF027FCAB66008430E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -345,7 +811,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -359,6 +826,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -399,7 +867,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -411,19 +880,26 @@
 		};
 		DCF54CF327FCAB66008430E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D22B851BC4EC15D04ED5639 /* Pods-WineRecommender.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WineRecommender/Preview Content\"";
+				DEVELOPMENT_TEAM = 8VADP4WXWL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WineRecommender/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Wine Recommender";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -439,19 +915,26 @@
 		};
 		DCF54CF427FCAB66008430E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2119652D02524DED44CC76A1 /* Pods-WineRecommender.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WineRecommender/Preview Content\"";
+				DEVELOPMENT_TEAM = 8VADP4WXWL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WineRecommender/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Wine Recommender";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,6 +950,7 @@
 		};
 		DCF54CF627FCAB66008430E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B5A7DC0F70C1F476886DCAA /* Pods-WineRecommenderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +970,7 @@
 		};
 		DCF54CF727FCAB66008430E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5378477483A039C4931731D /* Pods-WineRecommenderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +990,7 @@
 		};
 		DCF54CF927FCAB66008430E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F317CCB9FA9156091587A2F4 /* Pods-WineRecommender-WineRecommenderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +1008,7 @@
 		};
 		DCF54CFA27FCAB66008430E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD45630E39B0BA955BB8C468 /* Pods-WineRecommender-WineRecommenderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

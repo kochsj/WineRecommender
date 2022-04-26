@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "GC-Updated-Wine-glass-and-Bottle-and-red-grapes-on-a-wooden-table-Final-Image-720s.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
