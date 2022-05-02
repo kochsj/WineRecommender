@@ -45,15 +45,19 @@ struct HomeView: View {
     var spacing: CGFloat = 75
     
     var body: some View {
+        VScrollView {
             ZStack {
                 Color("background").edgesIgnoringSafeArea(.all)
-                ScrollView {
-                    VStack(alignment: .center, spacing: spacing) {
+                    VStack(alignment: .center) {
+                        Spacer(minLength: 25)
                         Text("wr.title.app".localized)
                             .font(.title)
+                            .fontWeight(.heavy)
+                        Spacer(minLength: 25)
                         NavigationLink(destination: UserLanding()) {
                             HomePageLogo()
                         }
+                        Spacer(minLength: 25)
                         VStack {
                             NavigationLink(destination: UserLanding()) {
                                 VStack {
@@ -65,14 +69,14 @@ struct HomeView: View {
                                     showLanguagePopUp.toggle()
                                 }
                         }
-                        
-                    }.padding(EdgeInsets(top: spacing, leading: 15, bottom: spacing, trailing: 15))
-                    
-                }
+                        Spacer(minLength: 25)
+                    }.padding([.horizontal], 15)
                 LanguageSelectionPopup(title: "wr.title.language".localized, messages: ["english", "español", "русский","français", "deutsch"], buttonText: "OK", show: $showLanguagePopUp, explainationShow: $showExplainationPopUp)
             }
-            .hiddenNavigationBarStyle()
-            .navigationBarBackButtonHidden(true)
+        }
+            
+        .hiddenNavigationBarStyle()
+        .navigationBarBackButtonHidden(true)
     }
     
     

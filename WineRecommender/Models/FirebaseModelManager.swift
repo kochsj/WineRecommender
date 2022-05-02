@@ -131,15 +131,15 @@ class FirebaseModelManager: ObservableObject {
             
             if (self.isRed != nil){
                 if (self.isRed!) {
-                    for white in self.whites {
-                        if (white == index) {
+                    for red in self.reds {
+                        if (red == index) {
                             excluded = true
                             break
                         }
                     }
                 } else {
-                    for red in self.reds {
-                        if (red == index) {
+                    for white in self.whites {
+                        if (white == index) {
                             excluded = true
                             break
                         }

@@ -10,7 +10,14 @@
 		03DF62FC4584CC5C3D1962DF /* Pods_WineRecommender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27CD7A1A3BC30D4C41C1C53C /* Pods_WineRecommender.framework */; };
 		C7577B830F7E6D259A310C47 /* Pods_WineRecommender_WineRecommenderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040BAD1C3047D716AB01AA52 /* Pods_WineRecommender_WineRecommenderUITests.framework */; };
 		C77C5102C19C4ACDE786FE24 /* Pods_WineRecommenderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AEE7A0BCB610BD4B9824183 /* Pods_WineRecommenderTests.framework */; };
+		DC29194E2818AF790022388B /* TurboTaxer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29194D2818AF790022388B /* TurboTaxer.swift */; };
 		DC42C4D428078E73003AA7E1 /* RenderToolbarBeforeHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC42C4D328078E73003AA7E1 /* RenderToolbarBeforeHomeView.swift */; };
+		DC46B16F2818A7AC00B902A5 /* SettingsFormulaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC46B16E2818A7AC00B902A5 /* SettingsFormulaView.swift */; };
+		DC46B1712818A7BF00B902A5 /* SettingsDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC46B1702818A7BF00B902A5 /* SettingsDataView.swift */; };
+		DC46B1732818A7DA00B902A5 /* SettingsThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC46B1722818A7DA00B902A5 /* SettingsThemeView.swift */; };
+		DC46B1752818A7F000B902A5 /* SettingsRecommendationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC46B1742818A7F000B902A5 /* SettingsRecommendationsView.swift */; };
+		DC46B1772818A80900B902A5 /* SettingsHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC46B1762818A80900B902A5 /* SettingsHelpView.swift */; };
+		DC46B1792818A81C00B902A5 /* SettingsContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC46B1782818A81C00B902A5 /* SettingsContactView.swift */; };
 		DC5393B527FE5912000F6D1F /* LocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5393B427FE5912000F6D1F /* LocalizationTests.swift */; };
 		DCA80682280A534500154373 /* DeletePopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA80681280A534500154373 /* DeletePopupView.swift */; };
 		DCD9C2432800E25C004D5AA2 /* WrappingHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9C2422800E25C004D5AA2 /* WrappingHStack.swift */; };
@@ -105,7 +112,14 @@
 		2119652D02524DED44CC76A1 /* Pods-WineRecommender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WineRecommender.release.xcconfig"; path = "Target Support Files/Pods-WineRecommender/Pods-WineRecommender.release.xcconfig"; sourceTree = "<group>"; };
 		27CD7A1A3BC30D4C41C1C53C /* Pods_WineRecommender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WineRecommender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B5A7DC0F70C1F476886DCAA /* Pods-WineRecommenderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WineRecommenderTests.debug.xcconfig"; path = "Target Support Files/Pods-WineRecommenderTests/Pods-WineRecommenderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC29194D2818AF790022388B /* TurboTaxer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurboTaxer.swift; sourceTree = "<group>"; };
 		DC42C4D328078E73003AA7E1 /* RenderToolbarBeforeHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderToolbarBeforeHomeView.swift; sourceTree = "<group>"; };
+		DC46B16E2818A7AC00B902A5 /* SettingsFormulaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsFormulaView.swift; sourceTree = "<group>"; };
+		DC46B1702818A7BF00B902A5 /* SettingsDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsDataView.swift; sourceTree = "<group>"; };
+		DC46B1722818A7DA00B902A5 /* SettingsThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsThemeView.swift; sourceTree = "<group>"; };
+		DC46B1742818A7F000B902A5 /* SettingsRecommendationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRecommendationsView.swift; sourceTree = "<group>"; };
+		DC46B1762818A80900B902A5 /* SettingsHelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsHelpView.swift; sourceTree = "<group>"; };
+		DC46B1782818A81C00B902A5 /* SettingsContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsContactView.swift; sourceTree = "<group>"; };
 		DC5393B327FE2E32000F6D1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DC5393B427FE5912000F6D1F /* LocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationTests.swift; sourceTree = "<group>"; };
 		DC5393B627FE594B000F6D1F /* UnitTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = UnitTestPlan.xctestplan; sourceTree = "<group>"; };
@@ -280,6 +294,12 @@
 				DCDF89BA27FD39DB0058A680 /* SavedRecommendationAllView.swift */,
 				DCDF89BB27FD39DB0058A680 /* SavedRecommendationDetailView.swift */,
 				DCDF89BC27FD39DB0058A680 /* SettingsView.swift */,
+				DC46B1782818A81C00B902A5 /* SettingsContactView.swift */,
+				DC46B1702818A7BF00B902A5 /* SettingsDataView.swift */,
+				DC46B16E2818A7AC00B902A5 /* SettingsFormulaView.swift */,
+				DC46B1762818A80900B902A5 /* SettingsHelpView.swift */,
+				DC46B1742818A7F000B902A5 /* SettingsRecommendationsView.swift */,
+				DC46B1722818A7DA00B902A5 /* SettingsThemeView.swift */,
 				DCDF89C327FD39DB0058A680 /* UserLanding.swift */,
 				DCDF89C227FD39DB0058A680 /* WineDetailView.swift */,
 				DCEF571527FCB9C500ED2308 /* Components */,
@@ -301,6 +321,7 @@
 				DCD9C2422800E25C004D5AA2 /* WrappingHStack.swift */,
 				DCD9C2442801028E004D5AA2 /* ProfileButton.swift */,
 				DCA80681280A534500154373 /* DeletePopupView.swift */,
+				DC29194D2818AF790022388B /* TurboTaxer.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -651,6 +672,7 @@
 				DCDF89B827FD392F0058A680 /* WRToolbar.swift in Sources */,
 				DCDF89B727FD392F0058A680 /* HomePageLogo.swift in Sources */,
 				DCDF89B227FD392F0058A680 /* TextCarousel.swift in Sources */,
+				DC46B16F2818A7AC00B902A5 /* SettingsFormulaView.swift in Sources */,
 				DCDF8A4927FD3FF80058A680 /* Sangiovese.swift in Sources */,
 				DCDF89C727FD39DB0058A680 /* SettingsView.swift in Sources */,
 				DCDF8A5A27FD3FF80058A680 /* Amarone.swift in Sources */,
@@ -666,10 +688,12 @@
 				DCDF89CE27FD39DB0058A680 /* UserLanding.swift in Sources */,
 				DCDF89E427FD3ED00058A680 /* PersistentStorageManager.swift in Sources */,
 				DCDF8A5527FD3FF80058A680 /* Port.swift in Sources */,
+				DC46B1712818A7BF00B902A5 /* SettingsDataView.swift in Sources */,
 				DCF54CFF27FCAEE5008430E7 /* FirebaseModelManager.swift in Sources */,
 				DCDF89B327FD392F0058A680 /* WineImage.swift in Sources */,
 				DCDF89CC27FD39DB0058A680 /* QuestionStartView.swift in Sources */,
 				DCDF8A4427FD3FF80058A680 /* PetiteSirah.swift in Sources */,
+				DC46B1732818A7DA00B902A5 /* SettingsThemeView.swift in Sources */,
 				DCDF8A4B27FD3FF80058A680 /* Rose.swift in Sources */,
 				DCDF8A5C27FD3FF80058A680 /* Gamay.swift in Sources */,
 				DCDF8A4527FD3FF80058A680 /* Malbec.swift in Sources */,
@@ -693,7 +717,10 @@
 				DCA80682280A534500154373 /* DeletePopupView.swift in Sources */,
 				DCDF89B527FD392F0058A680 /* ViewModifiers.swift in Sources */,
 				DCDF8A4627FD3FF80058A680 /* Carmenere.swift in Sources */,
+				DC46B1792818A81C00B902A5 /* SettingsContactView.swift in Sources */,
+				DC46B1752818A7F000B902A5 /* SettingsRecommendationsView.swift in Sources */,
 				DCDF8A5827FD3FF80058A680 /* WhiteBlend.swift in Sources */,
+				DC29194E2818AF790022388B /* TurboTaxer.swift in Sources */,
 				DCDF8A5227FD3FF80058A680 /* Chardonnay.swift in Sources */,
 				DCDF89B627FD392F0058A680 /* RecommendationCard.swift in Sources */,
 				DCDF8A5127FD3FF80058A680 /* Riesling.swift in Sources */,
@@ -705,6 +732,7 @@
 				DCDF8A5327FD3FF80058A680 /* GrunerVeltliner.swift in Sources */,
 				DCDF8A5727FD3FF80058A680 /* SauvignonBlanc.swift in Sources */,
 				DCDF8A5D27FD3FF80058A680 /* RedBlend.swift in Sources */,
+				DC46B1772818A80900B902A5 /* SettingsHelpView.swift in Sources */,
 				DCDF89C527FD39DB0058A680 /* SavedRecommendationAllView.swift in Sources */,
 				DCDF89D227FD3C890058A680 /* StringExtension.swift in Sources */,
 				DCDF89B427FD392F0058A680 /* LanguageSelectionPopup.swift in Sources */,
