@@ -34,15 +34,16 @@ struct SettingsContactView: View {
         ("GitHub:", "kochsj@github.com")
     ].map(ContactListModel.init)
     
+    
+    
     var body: some View {
         VScrollView {
             ZStack {
                 Color("background").edgesIgnoringSafeArea(.all)
+                
+                
+                
                 VStack {
-                    Text("wr.title.app".localized)
-                        .font(.title)
-                        .fontWeight(.heavy)
-                        .padding([.vertical], 20)
                     VStack {
                         Image("logo_opaque")
                             .resizable(resizingMode: .stretch)
@@ -53,7 +54,10 @@ struct SettingsContactView: View {
                             }
                     }
                     .frame(maxHeight: 250)
-                    
+                    .padding([.vertical], 20)
+                    Text("wr.title.app".localized)
+                        .font(.title)
+                        .fontWeight(.heavy)
                     VStack {
                         VStack(spacing: 10) {
                             ForEach(Array(zip(listOneTuples.indices, listOneTuples)), id: \.0) {index, tuple in
@@ -67,7 +71,7 @@ struct SettingsContactView: View {
                     }
                     .background(Color("background.container"))
                     .cornerRadius(10)
-                    .padding([.all], 20)
+                    .padding([.horizontal], 20)
 
                     VStack {
                         VStack(spacing: 10) {
@@ -82,14 +86,23 @@ struct SettingsContactView: View {
                     }
                     .background(Color("background.container"))
                     .cornerRadius(10)
-                    .padding([.horizontal], 20)
+                    .padding([.all], 20)
                     Spacer()
-                    
+
                 } //VStack
                     
-
+                
+//
+//
+//
 //                    List {
 //                        Section()
+//                        {
+//                            Toggle (
+//                                "Night Mode", isOn: $nightMode
+//                            ).listRowBackground(Color("background.container"))
+//                        }
+//                        Section(header: Text(""))
 //                        {
 //                            ForEach(listOneTuples) { tuple in
 //                                HStack {
@@ -110,15 +123,19 @@ struct SettingsContactView: View {
 //                            }
 //                        }
 //                    }
-//                }
+//                } // VStack
+                
+                
+                
+                
             }
         }.navigationTitle("Contact Me")
         
     }
 }
 
-struct SettingsContactView_Previews: PreviewProvider {
-    static var previews: some View {
-        SettingsContactView()
-    }
-}
+//struct SettingsContactView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        SettingsContactView()
+//    }
+//}

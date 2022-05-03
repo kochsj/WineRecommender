@@ -10,6 +10,9 @@ import SwiftUI
 struct DeletePopupView: View {
     var user: User
     var recommendation: Recommendation?
+    
+    var isDeleteAllView: Bool = false
+    
     @Binding var show: Bool
     
     @State var isDeleted: Bool = false
@@ -23,7 +26,7 @@ struct DeletePopupView: View {
             if show {
                 // PopUp background color
 //                Color.black.opacity(show ? 0.3 : 0).edgesIgnoringSafeArea(.all)
-                Color("background").opacity(show ? 0.5 : 0).edgesIgnoringSafeArea(.all)
+                Color("background").opacity(show ? 0.8 : 0).edgesIgnoringSafeArea(.all)
 
                 // PopUp Window
                 VStack {
@@ -34,32 +37,43 @@ struct DeletePopupView: View {
                             .frame(maxWidth: .infinity)
                             .frame(maxHeight: 54, alignment: .center)
                             .padding(10)
-    //                        .font(Font.system(size: 23, weight: .semibold))
                             .foregroundColor(Color("text"))
-    //                        .background(Color(#colorLiteral(red: 0.6196078431, green: 0.1098039216, blue: 0.2509803922, alpha: 1)))
                             .background(Color("background.button.next"))
                         VStack(alignment: .center) {
-                            Text("This will remove your saved recommendation. Are you sure?")
+                            Text(isDeleteAllView ? "This will remove ALL saved wine recommendations. Are you sure?" : "This will remove your saved recommendation. Are you sure?")
                                 .fontWeight(.semibold)
                                 .multilineTextAlignment(.center)
                                 .foregroundColor(Color("text"))
                                 .padding(10)
-    //                            .font(Font.system(size: 16, weight: .semibold))
                         }.frame(minHeight:200)
                         HStack(spacing: 0) {
                             Button(action: {
-                                if recommendation != nil {
-                                    PersistentStorageManager.delete(uuid: recommendation!.id, recommendations: user.recommendations) { result in
+                                if isDeleteAllView {
+                                    PersistentStorageManager.deleteAll() { result in
                                         switch result {
-                                        case .success(let rec):
-                                            user.setRecommendations(list: rec)
-                                            isDeleted = true
+                                        case .success(_):
+                                            withAnimation(.linear(duration: 0.3)) {
+                                                user.setRecommendations(list: [])
+                                                show = false
+                                            }
                                         case .failure(let error):
-                                            print("DeletePopupView.PersistentStorageManager.delete - ERROR: \(error)")
+                                            print("DeletePopupView.PersistentStorageManager.deleteAll - ERROR: \(error)")
                                         }
                                     }
                                 } else {
-                                    isNotDeleted = true
+                                    if recommendation != nil {
+                                        PersistentStorageManager.delete(uuid: recommendation!.id, recommendations: user.recommendations) { result in
+                                            switch result {
+                                            case .success(let rec):
+                                                user.setRecommendations(list: rec)
+                                                isDeleted = true
+                                            case .failure(let error):
+                                                print("DeletePopupView.PersistentStorageManager.delete - ERROR: \(error)")
+                                            }
+                                        }
+                                    } else {
+                                        isNotDeleted = true
+                                    }
                                 }
                                 
                             }, label: {
@@ -70,9 +84,7 @@ struct DeletePopupView: View {
                                     .frame(maxHeight: 54, alignment: .center)
                                     .padding(10)
                                     .foregroundColor(Color("text"))
-        //                            .background(Color(#colorLiteral(red: 0.6196078431, green: 0.1098039216, blue: 0.2509803922, alpha: 1)))
                                     .background(Color("background.button.next"))
-    //                                .font(Font.system(size: 23, weight: .semibold))
                                     
                             }).buttonStyle(PlainButtonStyle())
                             Divider()
@@ -89,9 +101,7 @@ struct DeletePopupView: View {
                                     .frame(maxHeight: 54, alignment: .center)
                                     .padding(10)
                                     .foregroundColor(Color("text"))
-        //                            .background(Color(#colorLiteral(red: 0.6196078431, green: 0.1098039216, blue: 0.2509803922, alpha: 1)))
                                     .background(Color("background.button.next"))
-    //                                .font(Font.system(size: 23, weight: .semibold))
                             }).buttonStyle(PlainButtonStyle())
                         }
                         .frame(maxWidth: .infinity)

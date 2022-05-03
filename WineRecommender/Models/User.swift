@@ -4,13 +4,15 @@
 //
 //  Created by Stephen Koch on 4/5/22.
 //
-
+import SwiftUI
 import Foundation
 
 class User: ObservableObject {
     @Published var recommendations: [Recommendation] = []
+//    @Published var preferences: Preferences = Preferences()
     @Published var modelFilePath: String?
     private var food = ""
+  
     
     func setFood(food: Food) {
         switch food {
@@ -51,6 +53,22 @@ class User: ObservableObject {
         
     }
     
+//    func setPreferences(preferences: Preferences? = nil) -> Void {
+//
+//        if preferences == nil {
+//            return
+//        } else {
+//            PersistentStorageManager.readPreferences(completion: { result in
+//                switch result {
+//                case .failure(let error):
+//                    fatalError(error.localizedDescription)
+//                case .success(let savedPreferences):
+//                    self.preferences = savedPreferences
+//                }
+//            })
+//        }
+//    }
+//
     func addRecommendation(recommendation: Recommendation) -> Void {
         self.recommendations.append(recommendation)
         PersistentStorageManager.create(recommendations: self.recommendations) {result in print("new count: \(result)")}

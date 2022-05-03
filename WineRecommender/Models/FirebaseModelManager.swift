@@ -129,17 +129,20 @@ class FirebaseModelManager: ObservableObject {
                 }
             }
             
+            // check if user wants to limit their selections to red/white wines
+            
             if (self.isRed != nil){
                 if (self.isRed!) {
-                    for red in self.reds {
-                        if (red == index) {
+                    for white in self.whites {
+                        if (white == index) {
                             excluded = true
                             break
                         }
                     }
+                    
                 } else {
-                    for white in self.whites {
-                        if (white == index) {
+                    for red in self.reds {
+                        if (red == index) {
                             excluded = true
                             break
                         }

@@ -188,6 +188,7 @@ struct QuestionFlavorProfileView: View {
                         }
                         .navigationBarBackButtonHidden(true)
                         .onAppear {
+//                            print("appeared.")
                             DispatchQueue.main.asyncAfter(deadline: .now() + 12.5) {
                                 self.isActive = true
                             }

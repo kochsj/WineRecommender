@@ -19,6 +19,7 @@
 		DC46B1772818A80900B902A5 /* SettingsHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC46B1762818A80900B902A5 /* SettingsHelpView.swift */; };
 		DC46B1792818A81C00B902A5 /* SettingsContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC46B1782818A81C00B902A5 /* SettingsContactView.swift */; };
 		DC5393B527FE5912000F6D1F /* LocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5393B427FE5912000F6D1F /* LocalizationTests.swift */; };
+		DC8E5BFF28208EF500ABF356 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8E5BFE28208EF500ABF356 /* Preferences.swift */; };
 		DCA80682280A534500154373 /* DeletePopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA80681280A534500154373 /* DeletePopupView.swift */; };
 		DCD9C2432800E25C004D5AA2 /* WrappingHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9C2422800E25C004D5AA2 /* WrappingHStack.swift */; };
 		DCD9C2452801028E004D5AA2 /* ProfileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9C2442801028E004D5AA2 /* ProfileButton.swift */; };
@@ -128,6 +129,7 @@
 		DC5393B927FE59A6000F6D1F /* (ru)LocalizationTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "(ru)LocalizationTestPlan.xctestplan"; sourceTree = "<group>"; };
 		DC5393BA27FE59B3000F6D1F /* (de)LocalizationTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "(de)LocalizationTestPlan.xctestplan"; sourceTree = "<group>"; };
 		DC5393BB27FE59BF000F6D1F /* (fr)LocalizationTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "(fr)LocalizationTestPlan.xctestplan"; sourceTree = "<group>"; };
+		DC8E5BFE28208EF500ABF356 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 		DCA80681280A534500154373 /* DeletePopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletePopupView.swift; sourceTree = "<group>"; };
 		DCD9C2422800E25C004D5AA2 /* WrappingHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappingHStack.swift; sourceTree = "<group>"; };
 		DCD9C2442801028E004D5AA2 /* ProfileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileButton.swift; sourceTree = "<group>"; };
@@ -403,6 +405,7 @@
 			children = (
 				DCF54CFE27FCAEE5008430E7 /* FirebaseModelManager.swift */,
 				DCDF89E127FD3ED00058A680 /* PersistentStorageManager.swift */,
+				DC8E5BFE28208EF500ABF356 /* Preferences.swift */,
 				DCEF571227FCB94F00ED2308 /* Recommendation.swift */,
 				DCEF571027FCB91400ED2308 /* User.swift */,
 				DCDF89E027FD3ED00058A680 /* Varietal.swift */,
@@ -675,6 +678,7 @@
 				DC46B16F2818A7AC00B902A5 /* SettingsFormulaView.swift in Sources */,
 				DCDF8A4927FD3FF80058A680 /* Sangiovese.swift in Sources */,
 				DCDF89C727FD39DB0058A680 /* SettingsView.swift in Sources */,
+				DC8E5BFF28208EF500ABF356 /* Preferences.swift in Sources */,
 				DCDF8A5A27FD3FF80058A680 /* Amarone.swift in Sources */,
 				DCDF8A4727FD3FF80058A680 /* Barbera.swift in Sources */,
 				DCD9C2452801028E004D5AA2 /* ProfileButton.swift in Sources */,

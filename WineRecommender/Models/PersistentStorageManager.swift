@@ -17,9 +17,10 @@ class PersistentStorageManager {
                                    in: .userDomainMask,
                                    appropriateFor: nil,
                                    create: false)
-        .appendingPathComponent("recommendations.data")
+//        .appendingPathComponent("recommendations.data")
+        .appendingPathComponent("wineRecommender.data")
     }
-    
+
     static func create(recommendations: [Recommendation], completion: @escaping (Result<Int, Error>)->Void) {
         DispatchQueue.global(qos: .background).async {
             do {
@@ -148,4 +149,5 @@ class PersistentStorageManager {
             }
         }
     }
+    
 }

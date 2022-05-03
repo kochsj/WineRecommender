@@ -13,6 +13,7 @@ struct WineRecommenderApp: App {
     var user = User()
     @StateObject var modelManager = FirebaseModelManager()
     
+    
     init(){
         // Set app style for nav bar
         UINavigationBar.appearance().backgroundColor = UIColor(named: "background")

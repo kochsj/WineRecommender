@@ -29,16 +29,18 @@ struct SavedRecommendationAllView: View {
             ZStack {
                 Color("background").edgesIgnoringSafeArea(.all)
                 if user.recommendations.count < 1 {
+                    Spacer()
                     VStack {
-                        Spacer()
+//                        Spacer()
                         Text("No saved recommendations.")
-                        Spacer()
+//                        Spacer()
                         NavigationLink(destination: QuestionStartView()) {
                             Text("Get Started")
                                 .primaryButtonStyle()
                         }.padding(EdgeInsets(top: 20, leading: 0, bottom: -10, trailing: 0))
-                        Spacer()
+//                        Spacer()
                     }.contentContainerStyle()
+                    Spacer()
                 } else {
                     VStack {
                         List {
@@ -87,7 +89,7 @@ struct SavedRecommendationAllView: View {
                                     }
                                     .tint(.red)
                                 }
-                                .listRowBackground(Color("background.button.container"))
+                                .listRowBackground(Color("background.container"))
                             } // end ForEach {}
                         } // end List {}
                     } // end VStack {}
