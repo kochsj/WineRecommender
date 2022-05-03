@@ -43,26 +43,12 @@ struct SettingsView: View {
         VScrollView {
             ZStack {
                 Color("background").edgesIgnoringSafeArea(.all)
-                
-                
-                
-                
-                
                 VStack(alignment: .leading) {
-                    
-                    
-                    
                     Text("Settings")
                         .font(.title)
                         .fontWeight(.heavy)
                         .padding([.leading], 20)
                     List {
-//                        Section()
-//                        {
-//                            Toggle (
-//                                "Night Mode", isOn: $nightMode
-//                            ).listRowBackground(Color("background.container"))
-//                        }
                         Section(header: Text("More Information"))
                         {
                             ForEach(listTuples) { tuple in
@@ -88,9 +74,8 @@ struct SettingsView: View {
                                         Text("XLarge").tag(TextSize.xlarge)
                                     } label: {}
                                 } label: {
-                                    Text(textSize.rawValue.capitalized)
+                                    Text(textSize.rawValue.capitalized).fontWeight(.semibold)
                                 }
-                                .accentColor(Color("text"))
                             }.listRowBackground(Color("background.container"))
                             
                             HStack {
@@ -105,9 +90,8 @@ struct SettingsView: View {
                                         Text("French").tag(Language.french)
                                     } label: {}
                                 } label: {
-                                    Text(language.rawValue.capitalized)
+                                    Text(language.rawValue.capitalized).fontWeight(.semibold)
                                 }
-                                .accentColor(Color("text"))
                             }.listRowBackground(Color("background.container"))
                             
                             HStack {
@@ -115,21 +99,14 @@ struct SettingsView: View {
                                 Spacer()
                                 Menu {
                                     Picker(selection: $colorScheme) {
-                                        Text("Standard").tag(0)
-                                        Text("Cool").tag(1)
-                                        Text("Warm").tag(2)
+                                        Text("Standard").tag(ColorScheme.standard)
+                                        Text("Cool").tag(ColorScheme.cool)
+                                        Text("Warm").tag(ColorScheme.warm)
                                     } label: {}
                                 } label: {
-                                    Text(colorScheme.rawValue.capitalized)
+                                    Text(colorScheme.rawValue.capitalized).fontWeight(.semibold)
                                 }
-                                .accentColor(Color("text"))
                             }.listRowBackground(Color("background.container"))
-                            
-//                            ForEach(listTwoTuples) { tuple in
-//                                NavigationLink(destination: tuple.view) {
-//                                    Text(tuple.title)
-//                                }.listRowBackground(Color("background.container"))
-//                            }
                         }
                         Section(header: Text("Recommendations"))
                         {
@@ -142,52 +119,20 @@ struct SettingsView: View {
                             Toggle (
                                 "More wine profile options", isOn: $moreOptionsEnabled
                             ).listRowBackground(Color("background.container"))
-                            Button("Remove saved recommendations") {
+                            Button {
                                 isPopupShowing = true
-                            }.listRowBackground(Color("background.container"))
-//                            ForEach(listOneTuples) { tuple in
-//                                NavigationLink(destination: tuple.view) {
-//                                    Text(tuple.title)
-//                                }.listRowBackground(Color("background.container"))
-//                            }
+                            } label: {
+                                Text("Remove saved recommendations")
+                            }
+                            .accentColor(.red)
+                            .listRowBackground(Color("background.container"))
                         }
-                        
-                        
                     }
-                    
-//                    List {
-//                        Toggle (
-//                            "Night Mode", isOn: $nightMode
-//                        ).listRowBackground(Color("background.container"))
-//                        ForEach(columnOneRowItems) { tuple in
-//                            NavigationLink(destination: tuple.view) {
-//                                Text(tuple.title)
-//                            }.listRowBackground(Color("background.container"))
-//                        }
-//                    }
-//                    .frame(maxHeight: 125)
-//                    .padding([.top], -35)
-//                    List {
-//                        ForEach(columnTwoRowItems) { tuple in
-//                            NavigationLink(destination: tuple.view) {
-//                                Text(tuple.title)
-//                            }.listRowBackground(Color("background.container"))
-//                        }
-//
-//                    }
-//                    .frame(maxHeight: 350)
-//                    .padding([.top], -35)
-//                    Spacer()
-                    
-                    
                 }
                 .padding([.top], 60)
-                
-                
-                
+
                 DeletePopupView(user: user, isDeleteAllView: true, show: $isPopupShowing)
-                
-                
+
             }
         }
         .hiddenNavigationBarStyle()

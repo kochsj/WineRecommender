@@ -16,13 +16,15 @@ struct WineRecommenderApp: App {
     
     init(){
         // Set app style for nav bar
-        UINavigationBar.appearance().backgroundColor = UIColor(named: "background")
-        UINavigationBar.appearance().shadowImage = UIImage()
+        
+//        UINavigationBar.appearance().backgroundColor = UIColor(named: "background")
+//        UINavigationBar.appearance().shadowImage = UIImage()
+        
 //        ThemeTitle.navigationBarColors(background: .purple, titleColor: .white)
         user.setRecommendations()
         // remove background of List Views
-        UITableView.appearance().backgroundColor = UIColor.clear
-        UITableView.appearance().separatorColor = UIColor(named: "text")
+//        UITableView.appearance().backgroundColor = UIColor.clear
+//        UITableView.appearance().separatorColor = UIColor(named: "text")
     }
     var body: some Scene {
         WindowGroup {
@@ -32,7 +34,7 @@ struct WineRecommenderApp: App {
             .navigationViewStyle(.stack)
             .environmentObject(modelManager)
             .environmentObject(user)
-            
+//            .accentColor(Color("AccentColor"))
         }
     }
 }
