@@ -24,19 +24,31 @@ struct ViewTitleModel: Hashable, Equatable, Identifiable {
 struct SettingsView: View {
     @EnvironmentObject var user: User
     @State var isPopupShowing: Bool = false
-    @AppStorage("nightMode") private var nightMode: Bool = false
+    @State private var showLanguagePopUp: Bool = false
+    @State private var showExplainationPopUp: Bool = false
+    @State private var isFirstRecieve: Bool = true
+    @State private var explainationMessage: String = "wr.view.home.explainationlanguage".localized
+    
+//    @AppStorage("nightMode") private var nightMode: Bool = false
     @AppStorage("skipLoadingScreen") private var skipLoadingScreen: Bool = false
     @AppStorage("textEntryEnabled") private var textEntryEnabled: Bool = false
-    @AppStorage("moreOptionsEnabled") private var moreOptionsEnabled: Bool = false
+    @AppStorage("moreOptionsEnabled") private var moreOptionsEnabled: Bool = true
     @AppStorage("textSize") private var textSize: TextSize = .small
-    @AppStorage("colorScheme") private var colorScheme: ColorScheme = .standard
+    @AppStorage("usingTextSize") private var usingTextSize: Bool = false
+    @AppStorage("colorScheme") private var wrColorScheme: WRColorScheme = .wrDark
     @AppStorage("language") private var language: Language = .english
     
 //    let listOneTuples = [(AnyView(SettingsFormulaView()), "Our Formula"), (AnyView(SettingsDataView()), "Data Trends")].map(ViewTitleModel.init)
 //    let listTwoTuples = [(AnyView(SettingsThemeView()), "Theme"), (AnyView(SettingsRecommendationsView()), "Recommendations"), (AnyView(SettingsHelpView()), "Help"), (AnyView(SettingsContactView()), "Contact Me")].map(ViewTitleModel.init)
-    let listTuples = [(AnyView(SettingsFormulaView()), "Our Formula"), (AnyView(SettingsDataView()), "Data Trends"), (AnyView(SettingsHelpView()), "Help"), (AnyView(SettingsContactView()), "Contact Me")].map(ViewTitleModel.init)
-
+    let listTuples = [(AnyView(SettingsFormulaView()), "About"), (AnyView(SettingsDataView()), "Data"), (AnyView(SettingsHelpView()), "Help"), (AnyView(SettingsContactView()), "Contact Me")].map(ViewTitleModel.init)
     
+    let languages: [String] = ["english", "español", "русский","français", "deutsch"]
+
+    func handleLanguageSelection(language: String) -> Void {
+        print("newLanguage: \(language)")
+        showExplainationPopUp = true
+        explainationMessage = LanguageSelectionPopup.changeLanguage(msg: language)
+    }
     
 
     var body: some View {
@@ -48,23 +60,43 @@ struct SettingsView: View {
                         .font(.title)
                         .fontWeight(.heavy)
                         .padding([.leading], 20)
+                        .padding([.bottom], -5)
                     List {
-                        Section(header: Text("More Information"))
+//                        Section(header: Text("More Information"))
+                        
+                        Section(header: Text("More Information".uppercased()).font(.headline))
                         {
+                            
                             ForEach(listTuples) { tuple in
                                 NavigationLink(destination: tuple.view) {
                                     Text(tuple.title)
                                 }.listRowBackground(Color("background.container"))
                             }
                         }
-                        Section(header: Text("Accessibility"))
+                        Section(header: Text("Accessibility".uppercased()).font(.headline))
                         {
+//                            Toggle (
+//                                "Night Mode", isOn: $nightMode
+//                            ).listRowBackground(Color("background.container"))
+                            HStack {
+                                Text("Alternate Color Scheme")
+                                Spacer()
+                                Menu {
+                                    Picker(selection: $wrColorScheme) {
+                                        Text("System").tag(WRColorScheme.system)
+                                        Text("Light").tag(WRColorScheme.wrLight)
+                                        Text("Dark").tag(WRColorScheme.wrDark)
+                                    } label: {}
+                                } label: {
+                                    Text(wrColorScheme.toString()).fontWeight(.semibold)
+                                }
+                            }.listRowBackground(Color("background.container"))
                             Toggle (
-                                "Night Mode", isOn: $nightMode
-                            ).listRowBackground(Color("background.container"))
-                            
+                                "Alternate Text Size", isOn: $usingTextSize
+                            ).listRowBackground(Color("background.container")) 
                             HStack {
                                 Text("Text Size")
+                                    .opacity(!usingTextSize ? 0.35 : 1.0)
                                 Spacer()
                                 Menu {
                                     Picker(selection: $textSize) {
@@ -75,7 +107,7 @@ struct SettingsView: View {
                                     } label: {}
                                 } label: {
                                     Text(textSize.rawValue.capitalized).fontWeight(.semibold)
-                                }
+                                }.disabled(!usingTextSize)
                             }.listRowBackground(Color("background.container"))
                             
                             HStack {
@@ -83,32 +115,27 @@ struct SettingsView: View {
                                 Spacer()
                                 Menu {
                                     Picker(selection: $language) {
-                                        Text("English").tag(Language.english)
-                                        Text("Spanish").tag(Language.spanish)
-                                        Text("German").tag(Language.german)
-                                        Text("Russian").tag(Language.russian)
-                                        Text("French").tag(Language.french)
+                                        ForEach(languages, id:\.self) { language in
+                                            Text(language.capitalized).tag(Language(lang: language)!)
+                                            
+                                        }
                                     } label: {}
+                                        .onReceive([self.language].publisher.first()) { value in
+                                            if isFirstRecieve {
+                                                isFirstRecieve = false
+                                            } else {
+                                                handleLanguageSelection(language: value.rawValue)
+                                            }
+                                            
+                                         }
                                 } label: {
                                     Text(language.rawValue.capitalized).fontWeight(.semibold)
                                 }
                             }.listRowBackground(Color("background.container"))
                             
-                            HStack {
-                                Text("Alternate Color Scheme")
-                                Spacer()
-                                Menu {
-                                    Picker(selection: $colorScheme) {
-                                        Text("Standard").tag(ColorScheme.standard)
-                                        Text("Cool").tag(ColorScheme.cool)
-                                        Text("Warm").tag(ColorScheme.warm)
-                                    } label: {}
-                                } label: {
-                                    Text(colorScheme.rawValue.capitalized).fontWeight(.semibold)
-                                }
-                            }.listRowBackground(Color("background.container"))
+                            
                         }
-                        Section(header: Text("Recommendations"))
+                        Section(header: Text("Recommendations".uppercased()).font(.headline))
                         {
                             Toggle (
                                 "Skip loading screen", isOn: $skipLoadingScreen
@@ -128,13 +155,17 @@ struct SettingsView: View {
                             .listRowBackground(Color("background.container"))
                         }
                     }
+                    
                 }
-                .padding([.top], 60)
+                .padding([.top], 40)
 
                 DeletePopupView(user: user, isDeleteAllView: true, show: $isPopupShowing)
-
+                
+                LanguageExplaination(title: "wr.title.language".localized, buttonText: "OK", explainationShow: $showExplainationPopUp, explainationMessage: $explainationMessage)
             }
+            
         }
+        
         .hiddenNavigationBarStyle()
         .toolbar {
             WRToolbar()
@@ -148,5 +179,6 @@ struct SettingsView_Previews: PreviewProvider {
         SettingsView()
     }
 }
+
 
 

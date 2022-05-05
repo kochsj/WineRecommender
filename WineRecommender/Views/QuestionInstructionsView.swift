@@ -9,6 +9,7 @@ import Foundation
 import SwiftUI
 
 struct QuestionInstructionsView: View {
+    @AppStorage("moreOptionsEnabled") private var moreOptionsEnabled: Bool = true
     var grape: String
     
     var body: some View {
@@ -23,7 +24,7 @@ struct QuestionInstructionsView: View {
                         Text("To find the best wine for you, please select the flavors or profiles that sound the most appealing to you!")
                         Text("Select as few or as many as you want!").bold().underline()
     //                    Text("Click below to find the perfect \(grape) wine for you!")
-                        NavigationLink(destination: QuestionFlavorProfileView()) {
+                        NavigationLink(destination: QuestionFlavorProfileView(moreOptionsEnabled: moreOptionsEnabled)) {
                             Text("Start")
                                 .frame(width: 200, height: 60, alignment: .center)
                                 .background(Color("background.button.unselected"))

@@ -11,16 +11,64 @@ import SwiftUI
 enum TextSize: String, CaseIterable, Identifiable {
     case small, medium, large, xlarge
     var id: Self { self }
+    var system: DynamicTypeSize {
+        switch self {
+        case .small:
+            return DynamicTypeSize.small
+        case .medium:
+            return DynamicTypeSize.large
+        case .large:
+            return DynamicTypeSize.xxxLarge
+        case .xlarge:
+            return DynamicTypeSize.accessibility3
+        }
+    }
 }
 
-enum Language: String, CaseIterable, Identifiable {
-    case english, spanish, german, russian, french
-    var id: Self { self }
+enum Language: String, CaseIterable {
+    case english, español, русский, français, deutsch
+//    case english, spanish, german, russian, french
+//    var id: Self { self }
+}
+extension Language {
+    init?(lang: String) {
+        switch lang {
+        case "español":
+            self = .español
+        case "deutsch":
+            self = .deutsch
+        case "русский":
+            self = .русский
+        case "français":
+            self = .français
+        case "es":
+            self = .español
+        case "de":
+            self = .deutsch
+        case "ru":
+            self = .русский
+        case "fr":
+            self = .français
+        default:
+            self = .english
+        }
+    }
 }
 
-enum ColorScheme: String, CaseIterable, Identifiable {
-    case standard, cool, warm
+enum WRColorScheme: String, CaseIterable, Identifiable {
+    case system, wrLight, wrDark
     var id: Self { self }
+    
+    func toString() -> String {
+        switch self {
+        case .system:
+            return "System"
+        case .wrLight:
+            return "Light"
+        case .wrDark:
+            return "Dark"
+        }
+    }
 }
 
 struct Preferences: Codable, Hashable {

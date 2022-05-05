@@ -72,7 +72,7 @@ struct ContentContainer: ViewModifier {
                 .padding(edgeInsets)
         }
         .frame(minWidth: 200, idealWidth: 350, maxWidth: 600, alignment: .center)
-        .multilineTextAlignment(.center)
+//        .multilineTextAlignment(.center)
         .background(Color("background.container"))
         .border(Color("border"))
         .foregroundColor(Color("text"))
@@ -173,9 +173,31 @@ struct GrapeSelectionButton: ViewModifier {
     }
 }
 
+class AppThemeViewModel: ObservableObject {
+    
+//    @AppStorage("isDarkMode") var isDarkMode: Bool = true
+//    @AppStorage("nightMode") var nightMode: Bool = false
+    @AppStorage("colorScheme") var wrColorScheme: WRColorScheme = .wrDark
+    @AppStorage("appTintColor") var appTintColor: String = "AccentColor"
+    
+}
+
+struct DarkModeViewModifier: ViewModifier {
+    @ObservedObject var appThemeViewModel: AppThemeViewModel = AppThemeViewModel()
+    
+    public func body(content: Content) -> some View {
+        content
+            .preferredColorScheme(appThemeViewModel.wrColorScheme == .wrDark ? .dark : appThemeViewModel.wrColorScheme == .wrLight ? .light : nil)
+            .accentColor(Color(appThemeViewModel.appTintColor))
+    }
+}
+
 extension View {
     func hiddenNavigationBarStyle() -> some View {
         modifier( HiddenNavigationBar() )
+    }
+    func applyAppTheme() -> some View {
+        modifier(DarkModeViewModifier())
     }
     func primaryButtonStyle() -> some View {
         modifier(PrimaryButton())

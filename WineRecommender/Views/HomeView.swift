@@ -74,11 +74,34 @@ struct HomeView: View {
                 LanguageSelectionPopup(title: "wr.title.language".localized, messages: ["english", "español", "русский","français", "deutsch"], buttonText: "OK", show: $showLanguagePopUp, explainationShow: $showExplainationPopUp)
             }
         }
-            
+
+
         .hiddenNavigationBarStyle()
         .navigationBarBackButtonHidden(true)
     }
     
+    
+//    @State private var customPreferenceKey: String = ""
+//
+//    var body: some View {
+//                ScrollView {
+//                    ZStack {
+//                        LazyVStack {
+//                            ForEach(0...100, id: \.self) { index in
+//                                Text("Row \(index)")
+//                            }
+//                        }
+//                        GeometryReader { proxy in
+//                            let offset = proxy.frame(in: .named("scroll")).minY
+//                            Color.clear.preference(key: CustomPreferenceKey.self, value: offset)
+//                        }
+//                    }
+//                }
+//                .coordinateSpace(name: "scroll")
+//                .onPreferenceChange(CustomPreferenceKey.self) { value in
+//                    print(value)
+//                }
+//        }
     
 // WineRecommender[47234:13451683] changing items while animating can result in a corrupted navigation bar
         // Seems to relate to when you transition from a view with a Nav Bar to a view with navBarHidden
@@ -95,3 +118,10 @@ struct HomeView: View {
         // adds a warning when navigating away from the page: [Snapshotting] Snapshotting a view (0x7ff61591e030, _UIButtonBarStackView) that has not been rendered at least once requires afterScreenUpdates:YES.
 }
 
+struct CustomPreferenceKey: PreferenceKey {
+    static var defaultValue: CGFloat = 0.0
+
+    static func reduce(value: inout CGFloat, nextValue: () -> CGFloat) {
+        value = nextValue()
+    }
+}

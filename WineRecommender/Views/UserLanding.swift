@@ -28,6 +28,7 @@ struct UserLanding: View {
                         }
                     }
                     .contentContainerStyle()
+                    .multilineTextAlignment(.center)
                 }
             }
         }

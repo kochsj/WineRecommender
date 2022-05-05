@@ -7,24 +7,58 @@
 
 import SwiftUI
 
+
+//let bodyProfile: [String] = ["thin", "mellow", "light", "round", "bold", "complex", "delicate", "dense", "savory", "hollow", "short", "angular", "austere", "closed", "tight", "firm", "concentrated", "opulent", "rich"]
+//let styleProfile: [String] = ["smoky", "musky", "accessible", "delicate","earthy", "ripe", "leathery", "clean", "polished", "refined", "jammy", "toasty", "nutty", "buttery", "dry"]
+//let tanninProfile: [String] = ["bitter","powerful", "rigid", "muscular", "mellow", "grippy", "coarse", "structured", "chewy", "silky", "velvety", "supple"]
+//let acidityProfile: [String] = ["bright", "astringent", "lean", "racy", "nerve", "lively", "tart", "edgy", "zippy", "zesty", "crisp", "flat"]
+//let spiceProfile: [String] = ["spicy", "caramel", "dill", "pepper", "anise", "cinnamon", "nutmeg", "sage", "eucalyptus", "saffron", "ginger", "tobacco", "vanilla", "clove", "chocolate"]
+//let fruitProfile: [String] = ["ripe", "red fruit", "grapey", "cassis", "plum", "berry", "citrus", "stone fruit", "tropical", "melon", "apple", "black fruit", "coconut", "strawberry", "raspberry", "cherry", "blueberry", "blackberry", "lime", "lemon", "orange", "grapefruit", "apricot", "nectarine", "peach", "banana", "pineapple", "lychee"]
+//let flowerProfile: [String] = ["violet", "white flowers", "citrus blossom", "lavender", "rose", "perfumed"]
+//let otherProfile: [String] = ["minerality", "charcoal", "stemmy", "creamy", "oily", "legs", "grassy", "long finish"]
+
+let bodyProfileLong: [String] = ["thin", "mellow", "light", "round", "bold", "complex", "delicate", "dense", "savory", "hollow", "short", "angular", "austere", "closed", "tight", "firm", "concentrated", "opulent", "rich"]
+let styleProfileLong: [String] = ["smoky", "musky", "accessible", "delicate","earthy", "ripe", "leathery", "clean", "polished", "refined", "jammy", "toasty", "nutty", "buttery", "dry"]
+let tanninProfileLong: [String] = ["bitter","powerful", "rigid", "muscular", "mellow", "grippy", "coarse", "structured", "chewy", "silky", "velvety", "supple"]
+let acidityProfileLong: [String] = ["bright", "astringent", "lean", "racy", "nerve", "lively", "tart", "edgy", "zippy", "zesty", "crisp", "flat"]
+let spiceProfileLong: [String] = ["spicy", "caramel", "dill", "pepper", "anise", "cinnamon", "nutmeg", "sage", "eucalyptus", "saffron", "ginger", "tobacco", "vanilla", "clove", "chocolate"]
+let fruitProfileLong: [String] = ["ripe", "red fruit", "grapey", "cassis", "plum", "berry", "citrus", "stone fruit", "tropical", "melon", "apple", "black fruit", "coconut", "strawberry", "raspberry", "cherry", "blueberry", "blackberry", "lime", "lemon", "orange", "grapefruit", "apricot", "nectarine", "peach", "banana", "pineapple", "lychee"]
+let flowerProfileLong: [String] = ["violet", "white flowers", "citrus blossom", "lavender", "rose", "perfumed"]
+let otherProfileLong: [String] = ["minerality", "charcoal", "stemmy", "creamy", "oily", "legs", "grassy", "long finish"]
+
+let bodyProfileShort: [String] = ["mellow", "light", "round", "bold", "complex", "delicate", "dense", "savory", "firm", "rich"]
+let styleProfileShort: [String] = ["accessible", "delicate", "clean", "polished", "refined", "jammy", "nutty", "dry"]
+let tanninProfileShort: [String] = ["bitter", "muscular", "mellow", "grippy", "coarse", "structured", "silky", "velvety"]
+let acidityProfileShort: [String] = ["bright", "racy", "nerve", "lively", "tart", "edgy", "zippy", "zesty", "crisp", "flat"]
+let spiceProfileShort: [String] = ["caramel", "dill", "pepper", "sage", "ginger", "tobacco", "vanilla", "clove", "chocolate"]
+let fruitProfileShort: [String] = ["plum", "citrus", "stone fruit", "melon", "apple", "black fruit", "strawberry", "raspberry", "cherry", "blueberry", "blackberry", "lime"]
+let flowerProfileShort: [String] = ["violet", "white flowers", "citrus blossom", "lavender", "rose", "perfumed"]
+let otherProfileShort: [String] = ["minerality", "charcoal", "stemmy", "creamy", "oily", "legs", "grassy", "long finish"]
+
 struct QuestionFlavorProfileView: View {
     
-    let bodyProfile: [String] = ["thin", "mellow", "light", "round", "bold", "complex", "delicate", "dense", "savory", "hollow", "short", "angular", "austere", "closed", "tight", "firm", "concentrated", "opulent", "rich"]
-    let styleProfile: [String] = ["smoky", "musky", "accessible", "delicate","earthy", "ripe", "leathery", "clean", "polished", "refined", "jammy", "toasty", "nutty", "buttery", "dry"]
-    let tanninProfile: [String] = ["bitter","powerful", "rigid", "muscular", "mellow", "grippy", "coarse", "structured", "chewy", "silky", "velvety", "supple"]
-    let acidityProfile: [String] = ["bright", "astringent", "lean", "racy", "nerve", "lively", "tart", "edgy", "zippy", "zesty", "crisp", "flat"]
-    let spiceProfile: [String] = ["spicy", "caramel", "dill", "pepper", "anise", "cinnamon", "nutmeg", "sage", "eucalyptus", "saffron", "ginger", "tobacco", "vanilla", "clove", "chocolate"]
-    let fruitProfile: [String] = ["ripe", "red fruit", "grapey", "cassis", "plum", "berry", "citrus", "stone fruit", "tropical", "melon", "apple", "black fruit", "coconut", "strawberry", "raspberry", "cherry", "blueberry", "blackberry", "lime", "lemon", "orange", "grapefruit", "apricot", "nectarine", "peach", "banana", "pineapple", "lychee"]
-    let flowerProfile: [String] = ["violet", "white flowers", "citrus blossom", "lavender", "rose", "perfumed"]
-    let otherProfile: [String] = ["minerality", "charcoal", "stemmy", "creamy", "oily", "legs", "grassy", "long finish"]
+    let bodyProfile: [String]
+    let styleProfile: [String]
+    let tanninProfile: [String]
+    let acidityProfile: [String]
+    let spiceProfile: [String]
+    let fruitProfile: [String]
+    let flowerProfile: [String]
+    let otherProfile: [String]
 
     @EnvironmentObject var modelManager: FirebaseModelManager
     @EnvironmentObject var user: User
+    
+    @AppStorage("skipLoadingScreen") private var skipLoadingScreen: Bool = false
+    @AppStorage("textEntryEnabled") private var textEntryEnabled: Bool = false
+//    @AppStorage("moreOptionsEnabled") private var moreOptionsEnabled: Bool = true
+    
     @State var showCode: Int = 0
     @State var selections: [String] = []
     @State var isActive: Bool = false
     @State var recommendation: Recommendation = Recommendation(wines: [""])
     @State var title: String = "Body"
+    @State private var additionalSelections: String = ""
     
     func handleSelection(selection: String) -> Void {
         let index = selections.firstIndex(of: selection)
@@ -48,6 +82,28 @@ struct QuestionFlavorProfileView: View {
                 print("\(selections.count). \(profile)")
                 handleSelection(selection: profile)
             }, profile: profile, isSelected: true)
+        }
+    }
+    
+    init(moreOptionsEnabled: Bool) {
+        if moreOptionsEnabled {
+            bodyProfile = bodyProfileLong
+            styleProfile = styleProfileLong
+            tanninProfile = tanninProfileLong
+            acidityProfile = acidityProfileLong
+            spiceProfile = spiceProfileLong
+            fruitProfile = fruitProfileLong
+            flowerProfile = flowerProfileLong
+            otherProfile = otherProfileLong
+        } else {
+            bodyProfile = bodyProfileShort
+            styleProfile = styleProfileShort
+            tanninProfile = tanninProfileShort
+            acidityProfile = acidityProfileShort
+            spiceProfile = spiceProfileShort
+            fruitProfile = fruitProfileShort
+            flowerProfile = flowerProfileShort
+            otherProfile = otherProfileShort
         }
     }
 
@@ -170,27 +226,72 @@ struct QuestionFlavorProfileView: View {
                                 self.recommendation = modelManager.predictionFromString(selections: selections)
                                 self.recommendation.setSelections(stringArray: selections)
                                 user.addRecommendation(recommendation: self.recommendation)
-                                showCode = 8
-                                title = ""
+                                if textEntryEnabled {
+                                    showCode = 8
+                                    title = "Text Entry"
+                                } else {
+                                    showCode = 9
+                                    title = ""
+                                }
+                                
+                                
                             }) {
                                 Text("Continue")
                                     .nextButtonStyle()
                             }.cornerRadius(8)
                         }
-
                     case 8:
+                        VStack {
+                            Spacer()
+                            VStack(spacing: 25) {
+                                
+                                Text("Enter your own flavors: ")
+                                TextField(text: $additionalSelections, prompt: Text("Optional")) {
+                                        Text("")
+                                    }
+                                
+                                Button(action: {
+                                    for selection in additionalSelections.components(separatedBy: " ") {
+                                        selections.append(selection.lowercased())
+                                    }
+                                    print("My Selections: \(selections)")
+                                    showCode = 9
+                                    title = ""
+                                }) {
+                                    Text("Next (Other)")
+                                        .nextButtonStyle()
+                                }.cornerRadius(8)
+                                
+                            }
+                            .contentContainerStyle()
+                            Spacer()
+                            
+//                            .disableAutocorrection(true)
+//                            TextField(
+//                                "Family Name",
+//                                text: $familyName
+//                            )
+//                            .disableAutocorrection(true)
+                        }
+                        .textFieldStyle(.roundedBorder)
+                    case 9:
                         // Have an animation that makes it look like the ML model is churning through the data
                         // Delay showing the Submit button
                         Spacer()
                         VStack {
-                            TurboTaxer()
+                            if !skipLoadingScreen {
+                                TurboTaxer()
+                            }
                             NavigationLink(destination: SavedRecommendationDetailView(recommendation: self.recommendation, starred: false).navigationBarBackButtonHidden(true), isActive: $isActive) {EmptyView()}
                         }
                         .navigationBarBackButtonHidden(true)
                         .onAppear {
-//                            print("appeared.")
-                            DispatchQueue.main.asyncAfter(deadline: .now() + 12.5) {
+                            if skipLoadingScreen {
                                 self.isActive = true
+                            } else {
+                                DispatchQueue.main.asyncAfter(deadline: .now() + 12.5) {
+                                    self.isActive = true
+                                }
                             }
                         }
                         

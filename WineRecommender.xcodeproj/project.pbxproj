@@ -21,6 +21,8 @@
 		DC5393B527FE5912000F6D1F /* LocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5393B427FE5912000F6D1F /* LocalizationTests.swift */; };
 		DC8E5BFF28208EF500ABF356 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8E5BFE28208EF500ABF356 /* Preferences.swift */; };
 		DCA80682280A534500154373 /* DeletePopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA80681280A534500154373 /* DeletePopupView.swift */; };
+		DCD149CC2821CC9E002B0504 /* LanguageExplaination.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD149CB2821CC9E002B0504 /* LanguageExplaination.swift */; };
+		DCD6D41D282319E600247880 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD6D41C282319E600247880 /* Banner.swift */; };
 		DCD9C2432800E25C004D5AA2 /* WrappingHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9C2422800E25C004D5AA2 /* WrappingHStack.swift */; };
 		DCD9C2452801028E004D5AA2 /* ProfileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9C2442801028E004D5AA2 /* ProfileButton.swift */; };
 		DCDF89AA27FD04C20058A680 /* VectorizationDictionary.json in Resources */ = {isa = PBXBuildFile; fileRef = DCDF89A927FD04C20058A680 /* VectorizationDictionary.json */; };
@@ -131,6 +133,8 @@
 		DC5393BB27FE59BF000F6D1F /* (fr)LocalizationTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "(fr)LocalizationTestPlan.xctestplan"; sourceTree = "<group>"; };
 		DC8E5BFE28208EF500ABF356 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 		DCA80681280A534500154373 /* DeletePopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletePopupView.swift; sourceTree = "<group>"; };
+		DCD149CB2821CC9E002B0504 /* LanguageExplaination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageExplaination.swift; sourceTree = "<group>"; };
+		DCD6D41C282319E600247880 /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
 		DCD9C2422800E25C004D5AA2 /* WrappingHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappingHStack.swift; sourceTree = "<group>"; };
 		DCD9C2442801028E004D5AA2 /* ProfileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileButton.swift; sourceTree = "<group>"; };
 		DCDF89A927FD04C20058A680 /* VectorizationDictionary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = VectorizationDictionary.json; sourceTree = SOURCE_ROOT; };
@@ -300,9 +304,9 @@
 				DC46B1702818A7BF00B902A5 /* SettingsDataView.swift */,
 				DC46B16E2818A7AC00B902A5 /* SettingsFormulaView.swift */,
 				DC46B1762818A80900B902A5 /* SettingsHelpView.swift */,
+				DCDF89C327FD39DB0058A680 /* UserLanding.swift */,
 				DC46B1742818A7F000B902A5 /* SettingsRecommendationsView.swift */,
 				DC46B1722818A7DA00B902A5 /* SettingsThemeView.swift */,
-				DCDF89C327FD39DB0058A680 /* UserLanding.swift */,
 				DCDF89C227FD39DB0058A680 /* WineDetailView.swift */,
 				DCEF571527FCB9C500ED2308 /* Components */,
 			);
@@ -314,6 +318,7 @@
 			children = (
 				DCDF89B027FD392F0058A680 /* HomePageLogo.swift */,
 				DCDF89AD27FD392F0058A680 /* LanguageSelectionPopup.swift */,
+				DCD149CB2821CC9E002B0504 /* LanguageExplaination.swift */,
 				DCDF89AF27FD392F0058A680 /* RecommendationCard.swift */,
 				DCDF89AB27FD392F0058A680 /* TextCarousel.swift */,
 				DCDF89AE27FD392F0058A680 /* ViewModifiers.swift */,
@@ -324,6 +329,7 @@
 				DCD9C2442801028E004D5AA2 /* ProfileButton.swift */,
 				DCA80681280A534500154373 /* DeletePopupView.swift */,
 				DC29194D2818AF790022388B /* TurboTaxer.swift */,
+				DCD6D41C282319E600247880 /* Banner.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -703,6 +709,7 @@
 				DCDF8A4527FD3FF80058A680 /* Malbec.swift in Sources */,
 				DCEF571127FCB91400ED2308 /* User.swift in Sources */,
 				DCEF571927FCBA5300ED2308 /* HomeView.swift in Sources */,
+				DCD149CC2821CC9E002B0504 /* LanguageExplaination.swift in Sources */,
 				DCEF571727FCB9EF00ED2308 /* ThemeTitle.swift in Sources */,
 				DCDF8A4F27FD3FF80058A680 /* Viognier.swift in Sources */,
 				DCDF8A4327FD3FF80058A680 /* Zinfandel.swift in Sources */,
@@ -738,6 +745,7 @@
 				DCDF8A5D27FD3FF80058A680 /* RedBlend.swift in Sources */,
 				DC46B1772818A80900B902A5 /* SettingsHelpView.swift in Sources */,
 				DCDF89C527FD39DB0058A680 /* SavedRecommendationAllView.swift in Sources */,
+				DCD6D41D282319E600247880 /* Banner.swift in Sources */,
 				DCDF89D227FD3C890058A680 /* StringExtension.swift in Sources */,
 				DCDF89B427FD392F0058A680 /* LanguageSelectionPopup.swift in Sources */,
 			);

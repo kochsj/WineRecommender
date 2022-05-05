@@ -39,80 +39,88 @@ struct SavedRecommendationAllView: View {
                                 .primaryButtonStyle()
                         }.padding(EdgeInsets(top: 20, leading: 0, bottom: -10, trailing: 0))
 //                        Spacer()
-                    }.contentContainerStyle()
+                    }
+                    .contentContainerStyle()
+                    .multilineTextAlignment(.center)
                     Spacer()
                 } else {
                     VStack {
+                        
                         List {
-                            ForEach(Array(zip(user.recommendations.indices, user.recommendations)), id: \.0) { index, recommendation in
-                                NavigationLink(destination: SavedRecommendationDetailView(recommendation: recommendation, starred: recommendation.starred)) {
-                                    HStack {
-                                        if recommendation.starred {
-                                            Image(systemName: "star.fill")
-                                        }
-                                        Text(recommendation.wines[0])
-                                        Spacer()
-                                        Text(recommendation.date, format: .dateTime.month().day().year())
-                                    }
-                                    .frame(maxHeight: 80)
-                                    .padding(5)
-                                }
-                                .swipeActions(edge: .leading) {
-                                    Button {
-                                        user.recommendations[index].toggleStarred()
-                                        PersistentStorageManager.update(updatedRecommendation: user.recommendations[index], recommendations: user.recommendations){ result in
-                                            switch result {
-                                            case .success(let count):
-                                                if count >= 0 {
-                                                    bannerText = "Updated!"
-                                                } else {
-                                                    bannerText = "Something went wrong.."
-                                                }
-                                            case .failure(let error):
-                                                bannerText = "Something went wrong.."
-                                                print("SavedRecommendationView.PersistentStorageManager.update - ERROR: \(error)")
+                            Section(header: Text("Swipe to favorite or delete").font(.footnote))
+                            {
+                                ForEach(Array(zip(user.recommendations.indices, user.recommendations)), id: \.0) { index, recommendation in
+                                    NavigationLink(destination: SavedRecommendationDetailView(recommendation: recommendation, starred: recommendation.starred)) {
+                                        HStack {
+                                            if recommendation.starred {
+                                                Image(systemName: "star.fill")
                                             }
-        //                                    handleBanner()
-                                            isShowing = true
+                                            Text(recommendation.wines[0])
+                                            Spacer()
+                                            Text(recommendation.date, format: .dateTime.month().day().year())
                                         }
-                                    } label: {
-                                        Label("Favorite", systemImage: "star")
+                                        .frame(maxHeight: 80)
+                                        .padding(5)
                                     }
-                                    .tint(.indigo)
-                                }
-                                .swipeActions(edge: .trailing) {
-                                    Button {
-                                        isPopupShowing = true
-                                        self.recommendation = recommendation
-                                    } label: {
-                                        Label("Delete", systemImage: "trash.fill")
+                                    .swipeActions(edge: .leading) {
+                                        Button {
+                                            user.recommendations[index].toggleStarred()
+                                            PersistentStorageManager.update(updatedRecommendation: user.recommendations[index], recommendations: user.recommendations){ result in
+                                                switch result {
+                                                case .success(let count):
+                                                    if count >= 0 {
+                                                        bannerText = "Updated!"
+                                                    } else {
+                                                        bannerText = "Something went wrong.."
+                                                    }
+                                                case .failure(let error):
+                                                    bannerText = "Something went wrong.."
+                                                    print("SavedRecommendationView.PersistentStorageManager.update - ERROR: \(error)")
+                                                }
+            //                                    handleBanner()
+                                                isShowing = true
+                                            }
+                                        } label: {
+                                            Label("Favorite", systemImage: "star")
+                                        }
+                                        .tint(.indigo)
                                     }
-                                    .tint(.red)
-                                }
-                                .listRowBackground(Color("background.container"))
-                            } // end ForEach {}
+                                    .swipeActions(edge: .trailing) {
+                                        Button {
+                                            isPopupShowing = true
+                                            self.recommendation = recommendation
+                                        } label: {
+                                            Label("Delete", systemImage: "trash.fill")
+                                        }
+                                        .tint(.red)
+                                    }
+                                    .listRowBackground(Color("background.container"))
+                                } // end ForEach {}
+                            }
+                            
                         } // end List {}
                     } // end VStack {}
                     DeletePopupView(user: user, recommendation: self.recommendation, show: $isPopupShowing)
-                    if isShowing {
-                        Color("background").opacity(0.7).edgesIgnoringSafeArea(.all)
-                        HStack {
-                            Text(bannerText)
-                                .fontWeight(.semibold)
-                                .frame(maxWidth: .infinity)
-                                .frame(height: 75, alignment: .center)
-                                .foregroundColor(Color("text"))
-                                .background(Color("background.button"))
-                        }
-                        .frame(maxWidth: 300)
-                        .border(Color.white, width: 2)
-                        .background(Color("background.container"))
-                        .onAppear() {
-                            DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-                                isShowing = false
-                            }
-                        }
-                    }
+                    Banner(isShowing: $isShowing, bannerText: bannerText)
+//                    if isShowing {
+//                        Color("background").opacity(0.7).edgesIgnoringSafeArea(.all)
+//                        HStack {
+//                            Text(bannerText)
+//                                .fontWeight(.semibold)
+//                                .frame(maxWidth: .infinity)
+//                                .frame(height: 75, alignment: .center)
+//                                .foregroundColor(Color("text"))
+//                                .background(Color("background.button"))
+//                        }
+//                        .frame(maxWidth: 300)
+//                        .border(Color.white, width: 2)
+//                        .background(Color("background.container"))
+//                        .onAppear() {
+//                            DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+//                                isShowing = false
+//                            }
+//                        }
+//                    }
                 }
                 
             } // ZStack {}
